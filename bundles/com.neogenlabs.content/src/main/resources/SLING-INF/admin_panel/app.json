@@ -1,0 +1,683 @@
+{
+  "content": [
+    "For Parents",
+    "For Doctors",
+    "More"
+  ],
+  "jcr:primaryType": "sling:Folder",
+  "For_Parents": {
+    "Contents": [
+      "1st step",
+      "Panel Information",
+      "More"
+    ],
+    "resourceName": "For_Parents",
+    "image": "parents.png",
+    "imagePath": "NeoGenAppMobile/images",
+    "jcr:primaryType": "sling:Folder",
+    "First_Step": {
+      "resourceName": "First_Step",
+      "Content": "1st Step Newborn Screening Test is done 24 hours AFTER a baby is born to identify serious Metabolic Disorders (IEMs or Inborn Errors of Metabolism) the baby might have been born with. These disorders if undetected and untreated can have adverse consequences for your baby's health. If a baby is born with a disorder, a Newborn Screening Test helps detect the disorder early so treatments can start before the disorder causes any harm to your baby. These disorders are inherited and cannot be prevented but they are TREATABLE. Even healthy looking babies and those with no family history of such disorders may have them. If a baby is born with a disorder, early detection and treatment is the only solution. Failure to start the treatment in time may result in mental retardation, physical disability or even death. The test is done by performing a painless heel prick on the baby and collecting a few drops of blood, 24 to 72 hours after birth. This sample is sent to NeoGen Labs for testing. Results are normally out within 5 days.",
+      "image": "First_Step.png",
+      "imagePath": "NeoGenAppMobile/images",
+      "jcr:primaryType": "nt:unstructured",
+      "Questions": {
+        "answer": [
+          "These disorders are inherited and  cannot be prevented but are Treatable.",
+          "The test is done by performing a painless  heel prick on the baby and by collecting  a few drops of blood on a filter paper"
+        ],
+        "question": [
+          "Can these disorders be PREVENTED?",
+          "How is a Newborn Screening Test done?"
+        ],
+        "jcr:primaryType": "sling:Folder",
+		"resourceName": "Question"
+      }
+    },
+    "More": {
+      "resourceName": "More",
+      "image": "more.png",
+      "imagePath": "NeoGenAppMobile/images",
+      "content": "DBS",
+      "jcr:primaryType": "sling:Folder",
+      "DBS": {
+        "resourceName": "DBS",
+        "imagePath": "NeogenAppMobile/images",
+        "image": "dbs.png",
+        "AboutDBS": "Recently, there have been some debates within the medical community in India regarding the use of Urine instead of Dried Blood Spot (DBS) for screening. One of the arguments that have been put forth in support of urine is that it can do many more tests than blood and it is confirmatory. Other than in India, there really is no debate on this subject and DBS is the accepted sample for newborn screening (NBS). The information presented here is compiled from multiple peer reviewed publications and discussions with NBS experts (Dr. D. Chace, Dr. K. Pass, Dr. B. Therrell and Dr. M. Rashed) from around the world.",
+        "jcr:primaryType": "nt:unstructured"
+      }
+    }
+  },
+  "For_Doctors": {
+    "resourceName": "For_Doctors",
+    "image": "doctors.png",
+    "imagePath": "NeoGenAppMobile/images",
+    "content": [
+      "Panel Information",
+      "Collection Guidelines",
+      "More"
+    ],
+    "jcr:primaryType": "sling:Folder",
+    "Collection_Guideline": {
+      "resourceName": "Collection_Guideline",
+      "imagePath": "NeoGenAppMobile/images",
+      "image": "collectionGuideline.png",
+      "CollectionGuidelines": "The sample is collected by a heel prick, upto 12 monthes of age, or finger prick for older  childern.A lancet is used to puncture the heel or finger. After the first drop of blood, the filter paper is touched to the blood drop and allowed to soak. The sample is dried for 4 hours on a sterile surface and couriered to the lab.",
+      "Transfusion": "If the infant is transfused, please call us before sample collection as it will affect the result.If the infant is on intravenous(IV) feeding and sample is collected, result for Galactosemia screen will be affected.",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "More": {
+      "resourceName": "more",
+      "image": "more.png",
+      "imagePath": "NeogenAppMobile/images",
+      "content": [
+        "Lab Schedule",
+        "Missing Report"
+      ],
+      "jcr:primaryType": "sling:Folder",
+      "Lab_Schedule": {
+        "Operation": "9 AM- 6 PM IST",
+        "resourceName": "Lab_Schedule",
+        "Lab_cut_off_time": "1 PM IST",
+        "image": "labschedule.png",
+        "imagePath": "NeogenAppMobile/images",
+        "jcr:primaryType": "nt:unstructured"
+      },
+      "Request_Report": {"jcr:primaryType": "nt:unstructured"}
+    }
+  },
+  "Contact_Us": {
+    "jcr:primaryType": "sling:Folder",
+    "Mail": {
+      "resourceName": "Mail",
+      "CompanyMail": "app@neogen.com",
+      "jcr:primaryType": "nt:unstructured"
+    }
+  },
+  "Panel_Information": {
+    "Tests": [
+      "Hb+FS+",
+      "FS+",
+      "MS",
+      "BIO6",
+      "BIO5",
+      "BIO4",
+      "Hb+"
+    ],
+    "resourceName": "Panel_Information",
+    "image": "panelInformation.png",
+    "imagePath": "NeoGenAppMobile/images",
+    "jcr:primaryType": "sling:Folder",
+    "FS+": {
+      "Tests": [
+        "Disorders_Screened_by_Tandem_Mass_Spectrometry",
+        "Disorders_Screened_by_Other_Technologies"
+      ],
+      "resourceName": "FS+",
+      "price": 5500,
+      "image": "fs+.png",
+      "imagePath": "NeoGenAppMobile/images",
+      "jcr:primaryType": "sling:Folder",
+      "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+        "resourceName": "Disorders Screened by Tandem Mass Spectrometry",
+        "Test": [
+          "Fatty Acid Oxidation Disorders",
+          "Organic Acid Disorders",
+          "Amino Acid Disorders",
+          "Other"
+        ],
+        "jcr:primaryType": "sling:Folder",
+        "Fatty_Acid_Oxidation_Disorders": {
+          "resourceName": "Fatty Acid Oxidation Disorders",
+          "Test": [
+            "Carnitine / Acylcarnitine Translocase Deficiency",
+            "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+            "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Carnitine Palmitoyl Transferase Deficiency Type I1",
+            "2,4-Dienoyl-CoA Reductase Deficiency1",
+            "Multiple Acyl-CoA Dehydrogenase Deficiency",
+            "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+            "Trifunctional Protein Deficiency",
+            "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Organic_Acid_Disorders": {
+          "resourceName": "Organic Acid Disorders",
+          "Test": [
+            "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+            "Glutaric Acidemia Type I",
+            "Isobutyryl-CoA Dehydrogenase Deficiency",
+            "Isovaleric Acidemia",
+            "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+            "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+            "3-Methylglutaconyl-CoA Hydratase Deficiency"
+          ],
+          "jcr:primaryType": "sling:Folder",
+          "Methylmalonic_Acidemias": {
+            "reesourceName": "Methylmalonic Acidemias",
+            "Test": [
+              "Methymalonyl-CoA Mutase Deficiency",
+              "Some Adenosylcobalamin Synthesis Defects",
+              "Maternal Vitamin B12 Deficiency",
+              "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+              "Propionic Acidemia",
+              "Multiple CoA Carboxylase Deficiency",
+              "Malonic Aciduria"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Amino_Acid_Disorders": {
+          "resourceName": "Amino Acid Disorders",
+          "Test": [
+            "Argininemia",
+            "Argininosuccinic Aciduria",
+            "5-Oxoprolinuria1",
+            "Carbamoylphosphate Synthetase Deficiency1",
+            "Citrullinemia",
+            "Homocystinuria",
+            "Hypermethioninemia",
+            "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+            "Hyperornithinemia with Gyral Atrophy1",
+            "Maple Syrup Urine Disease",
+            "Phenylketonuria",
+            "Tyrosinemia"
+          ],
+          "jcr:primaryType": "sling:Folder",
+          "Phenylketonuria": {
+            "resourceName": "Phenylketonuria",
+            "Test": [
+              "Classical/Hyperphenylalaninemia",
+              "Biopterin Cofactor Deficiencies"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Tyrosinemia": {
+            "resourceName": "Tyrosinemia",
+            "Test": [
+              "Transient Neonatal Tyrosinemia",
+              "Tyrosinemia Type I1",
+              "Tyrosinemia Type II",
+              "Tyrosinemia Type III"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Other": {
+          "resourceName": "Other",
+          "Test": [
+            "Hyperalimentation",
+            "Medium Chain Triglyceride Oil Administration",
+            "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+            "Liver Disease",
+            "Presence of EDTA Coagulants in Blood Specimen",
+            "Carnitine Uptake Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "Disorders_Screened_by_Other_Technologies": {
+        "resourceName": "Disorders Screened by Other Technologies",
+        "Other": [
+          "Congenital Hypothyroidism",
+          "Galactosemia",
+          "Congenital Adrenal Hyperplasia",
+          "Glucose-6-Phosphate Dehydrogenase Deficiency",
+          "Biotinidase Deficiency",
+          "Cystic Fibrosis"
+        ],
+        "Test": [
+          "Other",
+          "Haemoglobin Apathy"
+        ],
+        "jcr:primaryType": "sling:Folder"
+      }
+    },
+    "FS": {
+      "Tests": [
+        "Disorders_Screened_by_Tandem_Mass_Spectrometry",
+        "Disorders_Screened_by_Other_Technologies"
+      ],
+      "resourceName": "FS",
+      "price": 5000,
+      "imagePath": "NeoGenAppMobile/images",
+      "image": "fs.png",
+      "jcr:primaryType": "sling:Folder",
+      "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+        "resourceName": "Disorder Screened by TMS",
+        "Test": [
+          "Fatty Acid Oxidation Disorders",
+          "Organic Acid Disorders",
+          "Amino Acid Disorders",
+          "Other"
+        ],
+        "jcr:primaryType": "sling:Folder",
+        "Fatty_Acid_Oxidation_Disorders": {
+          "resourceName": "Fatty Acid Oxidation Disorders",
+          "Test": [
+            "Carnitine / Acylcarnitine Translocase Deficiency",
+            "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+            "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Carnitine Palmitoyl Transferase Deficiency Type I1",
+            "2,4-Dienoyl-CoA Reductase Deficiency1",
+            "Multiple Acyl-CoA Dehydrogenase Deficiency",
+            "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+            "Trifunctional Protein Deficiency",
+            "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Organic_Acid_Disorders": {
+          "resourceName": "Organic Acid Disorders",
+          "Test": [
+            "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+            "Glutaric Acidemia Type I",
+            "Isobutyryl-CoA Dehydrogenase Deficiency",
+            "Isovaleric Acidemia",
+            "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+            "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+            "3-Methylglutaconyl-CoA Hydratase Deficiency"
+          ],
+          "jcr:primaryType": "sling:Folder",
+          "Methylmalonic_Acidemias": {
+            "reesourceName": "Methylmalonic Acidemias",
+            "Test": [
+              "Methymalonyl-CoA Mutase Deficiency",
+              "Some Adenosylcobalamin Synthesis Defects",
+              "Maternal Vitamin B12 Deficiency",
+              "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+              "Propionic Acidemia",
+              "Multiple CoA Carboxylase Deficiency",
+              "Malonic Aciduria"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Amino_Acid_Disorders": {
+          "resourceName": "Amino Acid Disorders",
+          "Test": [
+            "Argininemia",
+            "Argininosuccinic Aciduria",
+            "5-Oxoprolinuria1",
+            "Carbamoylphosphate Synthetase Deficiency1",
+            "Citrullinemia",
+            "Homocystinuria",
+            "Hypermethioninemia",
+            "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+            "Hyperornithinemia with Gyral Atrophy1",
+            "Maple Syrup Urine Disease",
+            "Phenylketonuria",
+            "Tyrosinemia"
+          ],
+          "jcr:primaryType": "sling:Folder",
+          "Phenylketonuria": {
+            "resourceName": "Phenylketonuria",
+            "Test": [
+              "Classical/Hyperphenylalaninemia",
+              "Biopterin Cofactor Deficiencies"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Tyrosinemia": {
+            "resourceName": "Tyrosinemia",
+            "Test": [
+              "Transient Neonatal Tyrosinemia",
+              "Tyrosinemia Type I1",
+              "Tyrosinemia Type II",
+              "Tyrosinemia Type III"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Other": {
+          "resourceName": "Other",
+          "Test": [
+            "Hyperalimentation",
+            "Medium Chain Triglyceride Oil Administration",
+            "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+            "Liver Disease",
+            "Presence of EDTA Coagulants in Blood Specimen",
+            "Carnitine Uptake Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "Disorders_Screened_by_Other_Technologies": {
+        "resourceName": "Disorders Screened by Other Technologies",
+        "Other": [
+          "Congenital Hypothyroidism",
+          "Galactosemia",
+          "Congenital Adrenal Hyperplasia",
+          "Glucose-6-Phosphate Dehydrogenase Deficiency",
+          "Biotinidase Deficiency"
+        ],
+        "Test": [
+          "Other",
+          "Haemoglobin Apathy"
+        ],
+        "jcr:primaryType": "sling:Folder"
+      }
+    },
+    "MS": {
+      "resourceName": "MS",
+      "price": 4000,
+      "image": "ms.png",
+      "imagePath": "NeogenAppMobile/images",
+      "Test": [
+        "Fatty Acid Oxidation Disorder",
+        "Organic Acid Disorder",
+        "Amino Acid Disorders"
+      ],
+      "jcr:primaryType": "sling:Folder",
+      "Fatty_Acid_Oxidation_Disorders": {
+        "resourceName": "Fatty Acid Oxidation Disorders",
+        "Test": [
+          "Carnitine / Acylcarnitine Translocase Deficiency",
+          "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+          "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+          "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+          "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+          "Carnitine Palmitoyl Transferase Deficiency Type I1",
+          "2,4-Dienoyl-CoA Reductase Deficiency1",
+          "Multiple Acyl-CoA Dehydrogenase Deficiency",
+          "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+          "Trifunctional Protein Deficiency",
+          "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+        ],
+        "jcr:primaryType": "nt:unstructured"
+      },
+      "Organic_Acid_Disorders": {
+        "resourceName": "Organic_Acid_Disorders",
+        "Test": [
+          "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+          "Glutaric Acidemia Type I",
+          "Isobutyryl-CoA Dehydrogenase Deficiency",
+          "Isovaleric Acidemia",
+          "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+          "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+          "3-Methylglutaconyl-CoA Hydratase Deficiency"
+        ],
+        "jcr:primaryType": "sling:Folder",
+        "Methylmalonic_Acidemias": {
+          "reesourceName": "Methylmalonic Acidemias",
+          "Test": [
+            "Methymalonyl-CoA Mutase Deficiency",
+            "Some Adenosylcobalamin Synthesis Defects",
+            "Maternal Vitamin B12 Deficiency",
+            "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+            "Propionic Acidemia",
+            "Multiple CoA Carboxylase Deficiency",
+            "Malonic Aciduria"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "Amino_Acid_Disorders": {
+        "resourceName": "Amino Acid Disorders",
+        "Test": [
+          "Argininemia",
+          "Argininosuccinic Aciduria",
+          "5-Oxoprolinuria1",
+          "Carbamoylphosphate Synthetase Deficiency1",
+          "Citrullinemia",
+          "Homocystinuria",
+          "Hypermethioninemia",
+          "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+          "Hyperornithinemia with Gyral Atrophy1",
+          "Maple Syrup Urine Disease",
+          "Phenylketonuria",
+          "Tyrosinemia"
+        ],
+        "jcr:primaryType": "sling:Folder",
+        "Phenylketonuria": {
+          "resourceName": "Phenylketonuria",
+          "Test": [
+            "Classical/Hyperphenylalaninemia",
+            "Biopterin Cofactor Deficiencies"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Tyrosinemia": {
+          "resourceName": "Tyrosinemia",
+          "Test": [
+            "Transient Neonatal Tyrosinemia",
+            "Tyrosinemia Type I1",
+            "Tyrosinemia Type II",
+            "Tyrosinemia Type III"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      }
+    },
+    "Hb+": {
+      "Tests": [
+        "Sickle Cell Anemia",
+        "Sickle-C Disease",
+        "S-Ã\u008eÂ²eta Thalassemia",
+        "Hb Variants"
+      ],
+      "resourceName": "Hb+",
+      "price": 750,
+      "imagePath": "NeogenAppMobile/images",
+      "image": "hb+.png",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "Hb+FS+": {
+      "Tests": [
+        "Disorders Screened by Other Technologies",
+        "Disorders Screened by Tandem Mass Spectrometry"
+      ],
+      "resourceName": "Hb+FS+",
+      "price": "6000.00",
+      "imagePath": "NeoGenAppMobile/images",
+      "image": "hb+fs+.png",
+      "jcr:primaryType": "sling:Folder",
+      "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+        "resourceName": "Disorders Screened by Tandem Mass Spectrometry",
+        "Test": [
+          "Fatty Acid Oxidation Disorder",
+          "Organic Acid Disorder",
+          "Amino Acid Disorder",
+          "Other"
+        ],
+        "jcr:primaryType": "sling:Folder",
+        "Fatty_Acid_Oxidation_Disorders": {
+          "resourceName": "Fatty_Acid_Oxidation_Disorders",
+          "Test": [
+            "Carnitine / Acylcarnitine Translocase Deficiency",
+            "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+            "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Carnitine Palmitoyl Transferase Deficiency Type I1",
+            "2,4-Dienoyl-CoA Reductase Deficiency1",
+            "Multiple Acyl-CoA Dehydrogenase Deficiency",
+            "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+            "Trifunctional Protein Deficiency",
+            "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Organic_Acid_Disorders": {
+          "resourceName": "Organic_Acid_Disorders",
+          "Test": [
+            "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+            "Glutaric Acidemia Type I",
+            "Isobutyryl-CoA Dehydrogenase Deficiency",
+            "Isovaleric Acidemia",
+            "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+            "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+            "3-Methylglutaconyl-CoA Hydratase Deficiency"
+          ],
+          "jcr:primaryType": "sling:Folder",
+          "Methylmalonic_Acidemias": {
+            "resourceName": "Methylmalonic_Acidemias",
+            "Test": [
+              "Methymalonyl-CoA Mutase Deficiency",
+              "Some Adenosylcobalamin Synthesis Defects",
+              "Maternal Vitamin B12 Deficiency",
+              "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+              "Propionic Acidemia",
+              "Multiple CoA Carboxylase Deficiency",
+              "Malonic Aciduria"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Amino_Acid_Disorders": {
+          "resourceName": "Amino_Acid_Disorders",
+          "Test": [
+            "Argininemia",
+            "Argininosuccinic Aciduria",
+            "5-Oxoprolinuria1",
+            "Carbamoylphosphate Synthetase Deficiency1",
+            "Citrullinemia",
+            "Homocystinuria",
+            "Hypermethioninemia",
+            "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+            "Hyperornithinemia with Gyral Atrophy1",
+            "Maple Syrup Urine Disease",
+            "Phenylketonuria",
+            "Tyrosinemia"
+          ],
+          "jcr:primaryType": "sling:Folder",
+          "Phenylketonuria": {
+            "resourceName": "Phenylketonuria",
+            "Test": [
+              "Classical/Hyperphenylalaninemia",
+              "Biopterin Cofactor Deficiencies"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Tyrosinemia": {
+            "resourceName": "Tyrosinemia",
+            "Test": [
+              "Transient Neonatal Tyrosinemia",
+              "Tyrosinemia Type I1",
+              "Tyrosinemia Type II",
+              "Tyrosinemia Type III"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Other": {
+          "resourceName": "Other",
+          "Test": [
+            "Hyperalimentation",
+            "Medium Chain Triglyceride Oil Administration",
+            "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+            "Liver Disease",
+            "Presence of EDTA Coagulants in Blood Specimen",
+            "Carnitine Uptake Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "Disorders_Screened_by_Other_Technologies": {
+        "Haemoglobin_Apathy": [
+          "Sickle Cell Anemia",
+          "Sickle-C Disease",
+          "Hb Variants",
+          "S-Beta Thalassemia"
+        ],
+        "resourceName": "Disorders Screened by Other Technologies",
+        "Other": [
+          "Congenital Hypothyroidism",
+          "Galactosemia",
+          "Congenital Adrenal Hyperplasia",
+          "Glucose-6-Phosphate Dehydrogenase Deficiency",
+          "Biotinidase Deficiency",
+          "Cystic Fibrosis"
+        ],
+        "Test": [
+          "Other",
+          "Haemoglobin Apathy"
+        ],
+        "jcr:primaryType": "sling:Folder"
+      }
+    },
+    "Bio6": {
+      "resourceName": "Bio6",
+      "price": 2500,
+      "imagePath": "NeoGenAppMobile/images",
+      "image": "bio6.png",
+      "Test": [
+        "Congenital Hypothyroidism",
+        "Galactosemia",
+        "Congenital Adrenal Hyperplasia",
+        "Glucose-6-Phosphate Dehydrogenase Deficiency",
+        "Biotinidase Deficiency",
+        "Cystic Fibrosis"
+      ],
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "Bio5": {
+      "resourceName": "Bio5",
+      "price": 2000,
+      "imagePath": "NeogenAppMobile/images",
+      "image": "bio5.png",
+      "Test": [
+        "Congenital Hypothyroidism",
+        "Galactosemia",
+        "Congenital Adrenal Hyperplasia",
+        "Glucose-6-Phosphate Dehydrogenase Deficiency",
+        "Biotinidase Deficiency"
+      ],
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "Bio4": {
+      "resourceName": "Bio4",
+      "price": 1500,
+      "imagePath": "NeogenAppMobile/images",
+      "image": "bio4.png",
+      "Test": [
+        "Congenital Hypothyroidism",
+        "Galactosemia",
+        "Congenital Adrenal Hyperplasia",
+        "Glucose-6-Phosphate Dehydrogenase Deficiency"
+      ],
+      "jcr:primaryType": "nt:unstructured"
+    }
+  },
+  "Requests_And_Orders": {
+    "resourceName": "Requests_And_Orders",
+    "image": "orderATest.png",
+    "imagePath": "NeoGenAppMobile/images",
+    "jcr:primaryType": "sling:Folder",
+    "OrderATest": {
+      "jcr:primaryType": "sling:Folder",
+      "d2": {
+        "to": "subhajit",
+        "subject": "bal",
+        "message": "cher",
+        "from": "aa@b.com",
+        "jcr:primaryType": "sling:Folder"
+      }
+    }
+  },
+  "Paymentdetails": {
+    "jcr:primaryType": "nt:unstructured",
+    "body": [
+      "We accept DD/Payorders/Bankers cheque/At Par cheque in favour of",
+      "NeoGen Labs Pvt. Ltd.",
+      ",payable at Bangalore."
+    ],
+	"resourceName": "Paymentdetails",
+    "info": [
+      "Add rupees 100 to local cheques to cover collection charges.",
+      "Add rupees 100 for cash deposits",
+      "Add rupees 1.99 for NEFT transfer"
+    ],
+    "bankInfo": [
+      "HDFC, Frazer Town, Bangalore 560001, Karnataka.",
+      "A/C: 07142560000926",
+      "IFCS: HDFC0000714"
+    ]
+  }
+}

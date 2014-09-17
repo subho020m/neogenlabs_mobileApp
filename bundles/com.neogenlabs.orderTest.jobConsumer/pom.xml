@@ -1,0 +1,105 @@
+
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<!-- OSGi bundle group, artifact and version -->
+	<groupId>com.neogenlabs.orderTest</groupId>
+	<artifactId>com.neogenlabs.orderTest.mailShooter</artifactId>
+	<version>1.0.2-SNAPSHOT</version>
+	<!-- module packaging [1] -->
+	<packaging>bundle</packaging>
+
+	<!-- module dependencies [2] -->
+	<dependencies>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.compendium</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.webconsole</artifactId>
+			<version>4.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.dependencymanager</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.scr.annotations</artifactId>
+			<version>1.9.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.sling</groupId>
+			<artifactId>org.apache.sling.api</artifactId>
+			<version>2.3.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.sling</groupId>
+			<artifactId>org.apache.sling.event</artifactId>
+			<version>3.1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.jcr</groupId>
+			<artifactId>jcr</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neogenlabs.mailserver</groupId>
+			<artifactId>com.neogenlabs.mailserver.configuration</artifactId>
+			<version>1.0.2-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<!-- maven-bundle-plugin [3] -->
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>2.0.1</version>
+				<extensions>true</extensions>
+				<!-- maven-bundle-plugin configuration [4] -->
+				<configuration>
+					<instructions>
+						<Bundle-Activator>com.neogenlabs.orderTest.mailShooter.Activator</Bundle-Activator>
+						<Bundle-Vendor>NeoGen Labs</Bundle-Vendor>
+						<Bundle-Developer>SUBHAJIT MUKHERJEE</Bundle-Developer>
+						<Export-Package />
+						<Import-Package>
+							org.osgi*, *
+						</Import-Package>
+						<Bundle-SymbolicName>
+							${project.groupId}.${project.artifactId};singleton:=true
+						</Bundle-SymbolicName>
+						<Bundle-RequiredExecutionEnvironment>
+							J2SE-1.5
+						</Bundle-RequiredExecutionEnvironment>
+					</instructions>
+				</configuration>
+			</plugin>
+			<!-- other plugins ... -->
+		</plugins>
+	</build>
+	<organization>
+		<name>NeoGen Labs</name>
+		<url>www.neogenlabs.com</url>
+	</organization>
+	<description>This bundle is resposible for handling new order creation </description>
+</project>  

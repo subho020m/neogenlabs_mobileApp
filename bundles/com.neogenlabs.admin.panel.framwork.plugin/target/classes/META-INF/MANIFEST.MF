@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1404760521036
+Build-Jdk: 1.7.0_60
+Built-By: AMIT
+Bundle-Activator: com.neogenlabs.admin.panel.framwork.plugin.Activator
+Bundle-Description: This plugin is responsible for creating a menu in Ap
+ ache Felix Web Console for the Content Admin Panel
+Bundle-Developer: AMIT KUMAR MONDAL (admin@amitinside.com)
+Bundle-DocURL: www.neogenlabs.com
+Bundle-ManifestVersion: 2
+Bundle-Name: com.neogenlabs.admin.panel.framwork.plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: com.neogenlabs.com.neogenlabs.admin.panel.framwork.
+ plugin;singleton:=true
+Bundle-Vendor: NeoGen Labs
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.neogenlabs.admin.panel.framwork.plugin;uses:="javax.
+ servlet,javax.servlet.http,org.apache.felix.dm,org.apache.felix.webcons
+ ole,org.osgi.framework";version="0.0.1.SNAPSHOT"
+Import-Package: org.osgi.framework;version="[1.5,2)",javax.servlet,javax
+ .servlet.http,org.apache.felix.dm;version="[3.0,4)",org.apache.felix.we
+ bconsole;version="[3.1,4)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-2.1.0.20130426-122213

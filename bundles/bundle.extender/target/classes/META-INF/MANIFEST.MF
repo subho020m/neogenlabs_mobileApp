@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1404404250265
+Build-Jdk: 1.7.0_60
+Built-By: AMIT
+Bundle-Description: sling - bundle.extender
+Bundle-ManifestVersion: 2
+Bundle-Name: bundle.extender
+Bundle-SymbolicName: sling.bundle.extender
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: sling.bundle.extender;version="0.0.1.SNAPSHOT";uses:="or
+ g.apache.felix.utils.extender,org.osgi.framework"
+Import-Package: org.apache.felix.utils.extender,org.osgi.framework;versi
+ on="[1.5,2)",sling.sling.bundle;version="[0.0,1)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-2.1.0.20130426-122213

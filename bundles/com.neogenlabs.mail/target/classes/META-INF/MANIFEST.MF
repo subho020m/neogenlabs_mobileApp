@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: com.neogenlabs.mail
+Built-By: SUBHAJIT
+Tool: Bnd-0.0.357
+Bundle-Name: com.neogenlabs.mail.api
+Created-By: Apache Maven Bundle Plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: NeoGen Labs
+Bundle-Developer: SUBHAJIT MUKHERJEE
+Build-Jdk: 1.7.0_60
+Bundle-Version: 1.0.2.SNAPSHOT
+Bnd-LastModified: 1404426910569
+Bundle-ManifestVersion: 2
+Bundle-Description: This module registers the service interface for co
+ nfigurable service interface
+Bundle-SymbolicName: com.neogenlabs.mail.com.neogenlabs.mail.api;singl
+ eton:=true
+Import-Package: com.neogenlabs.mail
+Bundle-DocURL: www.neogenlabs.com
+

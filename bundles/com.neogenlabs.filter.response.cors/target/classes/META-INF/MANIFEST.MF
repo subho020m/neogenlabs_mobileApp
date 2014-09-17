@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1404612648055
+Build-Jdk: 1.7.0_60
+Built-By: AMIT
+Bundle-Description: This bundle is responsible for setting the CORS resp
+ onse header to all the responses sent by Sling Jetty
+Bundle-DocURL: www.neogenlabs.com
+Bundle-ManifestVersion: 2
+Bundle-Name: filter.response.cors
+Bundle-SymbolicName: com.neogenlabs.filter.response.cors
+Bundle-Vendor: NeoGen Labs
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.neogenlabs.filter.response.cors;version="0.0.1.SNAPS
+ HOT";uses:="javax.servlet"
+Import-Package: javax.servlet,javax.servlet.http,org.slf4j;version="[1.5
+ ,2)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Service-Component: OSGI-INF/com.neogenlabs.filter.response.cors.SlingCOR
+ SFilter.xml
+Tool: Bnd-2.1.0.20130426-122213

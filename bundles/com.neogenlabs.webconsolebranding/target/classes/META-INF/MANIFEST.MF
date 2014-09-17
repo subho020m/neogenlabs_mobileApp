@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1404404239267
+Build-Jdk: 1.7.0_60
+Built-By: SUBHAJIT
+Bundle-ManifestVersion: 2
+Bundle-Name: NeoGen Labs Web Console Branding
+Bundle-SymbolicName: com.neogenlabs.framework.webconsolebranding
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Fragment-Host: org.apache.felix.webconsole
+Tool: Bnd-2.1.0.20130426-122213

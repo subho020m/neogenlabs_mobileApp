@@ -1,0 +1,1554 @@
+{
+  "jcr:createdBy": "admin",
+  "content": [
+    "For Parents",
+    "For Doctors",
+    "More"
+  ],
+  "jcr:created": "Sat Jun 07 2014 16:57:41 GMT+0530",
+  "jcr:primaryType": "sling:Folder",
+  "For_Parents": {
+    "Contents": [
+      "1st step",
+      "Panel Information",
+      "More"
+    ],
+    "resourceName": "For_Parents",
+    "image": "parents.png",
+    "jcr:createdBy": "admin",
+    "imagePath": "NeogenAppMobile/images",
+    "jcr:created": "Sat Jun 07 2014 16:57:57 GMT+0530",
+    "jcr:primaryType": "sling:Folder",
+    "Panel_Information": {
+      "Contents": [
+        "Hb+Fs+",
+        "Bio6",
+        "More"
+      ],
+      "Resource name": "Panel_Information",
+      "jcr:createdBy": "admin",
+      "image": "panelInformation.jpg",
+      "imagePath": "NeogenAppMobile/images",
+      "jcr:created": "Sat Jun 07 2014 16:58:10 GMT+0530",
+      "jcr:primaryType": "sling:Folder",
+      "Bio6": {
+        "resourceName": "Bio6",
+        "price": 2500,
+        "imagePath": "NeogenAppMobile/images",
+        "image": "bio6.png",
+        "Test": [
+          "Congenital Hypothyroidism",
+          "Galactosemia",
+          "Congenital Adrenal Hyperplasia",
+          "Glucose-6-Phosphate Dehydrogenase Deficiency",
+          "Biotinidase Deficiency",
+          "Cystic Fibrosis"
+        ],
+        "jcr:primaryType": "nt:unstructured"
+      },
+      "More": {
+        "resourceName": "More",
+        "image": "more.png",
+        "jcr:createdBy": "admin",
+        "content": ["FS+"],
+        "jcr:created": "Mon Jun 09 2014 12:23:11 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "FS+": {
+          "resourceName": "FS+",
+          "price": 5500,
+          "jcr:createdBy": "admin",
+          "image": "fs+.png",
+          "jcr:created": "Tue Jun 10 2014 11:05:50 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+            "resourceName": "Disorders_Screened_by_Tandem_Mass_Spectrometry",
+            "jcr:createdBy": "admin",
+            "Test": [
+              "Fatty Acid Oxidation Disorders",
+              "Organic Acid Disorders",
+              "Amino Acid Disorders",
+              "Other"
+            ],
+            "jcr:created": "Tue Jun 10 2014 11:10:47 GMT+0530",
+            "jcr:primaryType": "sling:Folder",
+            "Fatty_Acid_Oxidation_Disorders": {
+              "resourceName": "Fatty_Acid_Oxidation_Disorders",
+              "Test": [
+                "Carnitine / Acylcarnitine Translocase Deficiency",
+                "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+                "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+                "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+                "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+                "Carnitine Palmitoyl Transferase Deficiency Type I1",
+                "2,4-Dienoyl-CoA Reductase Deficiency1",
+                "Multiple Acyl-CoA Dehydrogenase Deficiency",
+                "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+                "Trifunctional Protein Deficiency",
+                "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            },
+            "Organic_Acid_Disorders": {
+              "resourceName": "Organic_Acid_Disorders",
+              "jcr:createdBy": "admin",
+              "Test": [
+                "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+                "Glutaric Acidemia Type I",
+                "Isobutyryl-CoA Dehydrogenase Deficiency",
+                "Isovaleric Acidemia",
+                "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+                "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+                "3-Methylglutaconyl-CoA Hydratase Deficiency",
+                "Methylmalonic Acidemias"
+              ],
+              "jcr:created": "Tue Jun 10 2014 11:14:02 GMT+0530",
+              "jcr:primaryType": "sling:Folder",
+              "Methylmalonic_Acidemias": {
+                "reesourceName": "Methylmalonic_Acidemias",
+                "Test": [
+                  "Methymalonyl-CoA Mutase Deficiency",
+                  "Some Adenosylcobalamin Synthesis Defects",
+                  "Maternal Vitamin B12 Deficiency",
+                  "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+                  "Propionic Acidemia",
+                  "Multiple CoA Carboxylase Deficiency",
+                  "Malonic Aciduria"
+                ],
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "Amino_Acid_Disorders": {
+              "resourceName": "Amino_Acid_Disorders",
+              "jcr:createdBy": "admin",
+              "Test": [
+                "Argininemia",
+                "Argininosuccinic Aciduria",
+                "5-Oxoprolinuria1",
+                "Carbamoylphosphate Synthetase Deficiency1",
+                "Citrullinemia",
+                "Homocystinuria",
+                "Hypermethioninemia",
+                "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+                "Hyperornithinemia with Gyral Atrophy1",
+                "Maple Syrup Urine Disease",
+                "Phenylketonuria",
+                "Tyrosinemia"
+              ],
+              "jcr:created": "Tue Jun 10 2014 11:16:38 GMT+0530",
+              "jcr:primaryType": "sling:Folder",
+              "Phenylketonuria": {
+                "resourceName": "Phenylketonuria",
+                "Test": [
+                  "Classical/Hyperphenylalaninemia",
+                  "Biopterin Cofactor Deficiencies"
+                ],
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "Tyrosinemia": {
+                "resourceName": "Tyrosinemia",
+                "Test": [
+                  "Transient Neonatal Tyrosinemia",
+                  "Tyrosinemia Type I1",
+                  "Tyrosinemia Type II",
+                  "Tyrosinemia Type III"
+                ],
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "Other": {
+              "resourceName": "Other",
+              "Test": [
+                "Hyperalimentation",
+                "Medium Chain Triglyceride Oil Administration",
+                "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+                "Liver Disease",
+                "Presence of EDTA Coagulants in Blood Specimen",
+                "Carnitine Uptake Deficiency"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            }
+          },
+          "Disorders_Screened_by_Other_Technologies": {
+            "resourceName": "Disorders_Screened_by_Other_Technologies",
+            "Test": [
+              "Congenital Hypothyroidism",
+              "Galactosemia",
+              "Congenital Adrenal Hyperplasia",
+              "Glucose-6-Phosphate Dehydrogenase Deficiency",
+              "Biotinidase Deficiency",
+              "Cystic Fibrosis"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        }
+      },
+      "Hb+Fs+": {
+        "Tests": [
+          "Disorders Screened by Other Technologies",
+          "Disorders Screened by Tandem Mass Spectrometry"
+        ],
+        "resourceName": "Hb+FS+",
+        "price": "6000",
+        "jcr:createdBy": "admin",
+        "image": "hb+fs+.png",
+        "imagePath": "NeogenAppMobile/images",
+        "jcr:created": "Mon Jun 09 2014 16:22:57 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "Disorders_Screened_by_Other_Technologies": {
+          "resourceName": "Disorders_Screened_by_Other_Technologies",
+          "Test": [
+            "Congenital Hypothyroidism",
+            "Galactosemia",
+            "Congenital Adrenal Hyperplasia",
+            "Glucose-6-Phosphate Dehydrogenase Deficiency",
+            "Biotinidase Deficiency",
+            "Cystic Fibrosis",
+            "Sickle Cell Anemia",
+            "Sickle-C Disease",
+            "S-βeta Thalassemia",
+            "Hb Variants"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+          "Tests": [
+            "Fatty Acid Oxidation Disorder",
+            "Organic Acid Disorder",
+            "Amino Acid Disorder",
+            "Other"
+          ],
+          "resourceName": "Disorders_Screened_by_Tandem_Mass_Spectrometry",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Tue Jun 10 2014 14:46:30 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Fatty_Acid_Oxidation_Disorders": {
+            "resourceName": "Fatty_Acid_Oxidation_Disorders",
+            "Test": [
+              "Carnitine / Acylcarnitine Translocase Deficiency",
+              "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+              "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Carnitine Palmitoyl Transferase Deficiency Type I1",
+              "2,4-Dienoyl-CoA Reductase Deficiency1",
+              "Multiple Acyl-CoA Dehydrogenase Deficiency",
+              "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+              "Trifunctional Protein Deficiency",
+              "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Organic_Acid_Disorders": {
+            "resourceName": "Organic_Acid_Disorders",
+            "jcr:createdBy": "admin",
+            "Test": [
+              "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+              "Glutaric Acidemia Type I",
+              "Isobutyryl-CoA Dehydrogenase Deficiency",
+              "Isovaleric Acidemia",
+              "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+              "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+              "3-Methylglutaconyl-CoA Hydratase Deficiency",
+              "Methylmalonic Acidemias"
+            ],
+            "jcr:created": "Tue Jun 10 2014 14:48:47 GMT+0530",
+            "jcr:primaryType": "sling:Folder",
+            "Methylmalonic_Acidemias": {
+              "resourceName": "Methylmalonic_Acidemias",
+              "Test": [
+                "Methymalonyl-CoA Mutase Deficiency",
+                "Some Adenosylcobalamin Synthesis Defects",
+                "Maternal Vitamin B12 Deficiency",
+                "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+                "Propionic Acidemia",
+                "Multiple CoA Carboxylase Deficiency",
+                "Malonic Aciduria"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            }
+          },
+          "Amino_Acid_Disorders": {
+            "resourceName": "Amino_Acid_Disorders",
+            "jcr:createdBy": "admin",
+            "Test": [
+              "Argininemia",
+              "Argininosuccinic Aciduria",
+              "5-Oxoprolinuria1",
+              "Carbamoylphosphate Synthetase Deficiency1",
+              "Citrullinemia",
+              "Homocystinuria",
+              "Hypermethioninemia",
+              "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+              "Hyperornithinemia with Gyral Atrophy1",
+              "Maple Syrup Urine Disease",
+              "Phenylketonuria",
+              "Tyrosinemia"
+            ],
+            "jcr:created": "Tue Jun 10 2014 14:51:42 GMT+0530",
+            "jcr:primaryType": "sling:Folder",
+            "Phenylketonuria": {
+              "resourceName": "Phenylketonuria",
+              "Test": [
+                "Classical/Hyperphenylalaninemia",
+                "Biopterin Cofactor Deficiencies"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            },
+            "Tyrosinemia": {
+              "resourceName": "Tyrosinemia",
+              "Test": [
+                "Transient Neonatal Tyrosinemia",
+                "Tyrosinemia Type I1",
+                "Tyrosinemia Type II",
+                "Tyrosinemia Type III"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            }
+          },
+          "Other": {
+            "resourceName": "Other",
+            "Test": [
+              "Hyperalimentation",
+              "Medium Chain Triglyceride Oil Administration",
+              "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+              "Liver Disease",
+              "Presence of EDTA Coagulants in Blood Specimen",
+              "Carnitine Uptake Deficiency"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "ab": {
+          "jcr:createdBy": "admin",
+          "asas": [
+            "as",
+            "ass",
+            "asasas"
+          ],
+          "jcr:created": "Tue Jun 24 2014 12:53:13 GMT+0530",
+          "cvb": "cv",
+          "jcr:primaryType": "sling:Folder",
+          "result": {
+            "jcr:createdBy": "admin",
+            "jcr:created": "Tue Jun 24 2014 12:53:13 GMT+0530",
+            "a": "p",
+            "jcr:primaryType": "sling:Folder"
+          },
+          "res2": {
+            "jcr:createdBy": "admin",
+            "b": "d",
+            "jcr:created": "Tue Jun 24 2014 12:53:13 GMT+0530",
+            "jcr:primaryType": "sling:Folder"
+          }
+        }
+      }
+    },
+    "First_Step": {
+      "Content": "1st Step Newborn Screening Test is done 24 hours AFTER a baby is born to identify serious Metabolic Disorders (IEMs or Inborn Errors of Metabolism) the baby might have been born with. These disorders if undetected and untreated can have adverse consequences for your baby's health. If a baby is born with a disorder, a Newborn Screening Test helps detect the disorder early so treatments can start before the disorder causes any harm to your baby. These disorders are inherited and cannot be prevented but they are TREATABLE. Even healthy looking babies and those with no family history of such disorders may have them. If a baby is born with a disorder, early detection and treatment is the only solution. Failure to start the treatment in time may result in mental retardation, physical disability or even death. The test is done by performing a painless heel prick on the baby and collecting a few drops of blood, 24 to 72 hours after birth. This sample is sent to NeoGen Labs for testing. Results are normally out within 5 days.",
+      "resourceName": "First_Step",
+      "image": "First_Step.png",
+      "imagePath": "NeogenAppMobile/images",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "More": {
+      "resourceName": "More",
+      "image": "more.png",
+      "jcr:createdBy": "admin",
+      "imagePath": "NeogenAppMobile/images",
+      "content": "DBS",
+      "jcr:created": "Tue Jun 10 2014 11:37:27 GMT+0530",
+      "jcr:primaryType": "sling:Folder",
+      "DBS": {
+        "resourceName": "DBS",
+        "imagePath": "NeogenAppMobile/images",
+        "image": "dbs.png",
+        "AboutDBS": "Recently, there have been some debates within the medical community in India regarding the use of Urine instead of Dried Blood Spot (DBS) for screening. One of the arguments that have been put forth in support of urine is that it can do many more tests than blood and it is confirmatory. Other than in India, there really is no debate on this subject and DBS is the accepted sample for newborn screening (NBS). The information presented here is compiled from multiple peer reviewed publications and discussions with NBS experts (Dr. D. Chace, Dr. K. Pass, Dr. B. Therrell and Dr. M. Rashed) from around the world.",
+        "jcr:primaryType": "nt:unstructured"
+      }
+    }
+  },
+  "For_Doctors": {
+    "resourceName": "For_Doctors",
+    "image": "doctors.png",
+    "jcr:createdBy": "admin",
+    "imagePath": "NeogenAppMobile/images",
+    "content": [
+      "Panel Information",
+      "Collection Guidelines",
+      "More"
+    ],
+    "jcr:created": "Tue Jun 10 2014 11:41:27 GMT+0530",
+    "jcr:primaryType": "sling:Folder",
+    "Collection_Guideline": {
+      "resourceName": "Collection_Guideline",
+      "imagePath": "NeogenAppMobile/images",
+      "image": "collectionGuideline.png",
+      "Transfusion": "If the infant is transfused, please call us before sample collection as it will affect the result.If the infant is on intravenous(IV) feeding and sample is collected, result for Galactosemia screen will be affected.",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "Panel_Information": {
+      "resourceName": "Panel_Information",
+      "image": "panel.png",
+      "jcr:createdBy": "admin",
+      "imagePath": "NeogenAppMobile/images",
+      "content": [
+        "Hb+FS+",
+        "Bio6",
+        "More"
+      ],
+      "jcr:created": "Tue Jun 10 2014 14:20:04 GMT+0530",
+      "jcr:primaryType": "sling:Folder",
+      "Hb+Fs+": {
+        "resourceName": "Hb+FS+",
+        "price": 6000,
+        "jcr:createdBy": "admin",
+        "image": "hbfs.png",
+        "imagePath": "NeogenAppMobile/images",
+        "jcr:created": "Tue Jun 10 2014 15:59:45 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+          "resourceName": "Disorders Screened by Tandem Mass Spectrometry",
+          "jcr:createdBy": "admin",
+          "Test": [
+            "Fatty Acid Oxidation Disorders",
+            "Organic Acid Disorders",
+            "Amino Acid Disorders",
+            "Other"
+          ],
+          "jcr:created": "Tue Jun 10 2014 16:01:15 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Fatty_Acid_Oxidation_Disorders": {
+            "resourceName": "Fatty Acid Oxidation Disorders",
+            "Test": [
+              "Carnitine / Acylcarnitine Translocase Deficiency",
+              "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+              "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Carnitine Palmitoyl Transferase Deficiency Type I1",
+              "2,4-Dienoyl-CoA Reductase Deficiency1",
+              "Multiple Acyl-CoA Dehydrogenase Deficiency",
+              "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+              "Trifunctional Protein Deficiency",
+              "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Organic_Acid_Disorders": {
+            "resourceName": "Organic Acid Disorders",
+            "jcr:createdBy": "admin",
+            "Test": [
+              "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+              "Glutaric Acidemia Type I",
+              "Isobutyryl-CoA Dehydrogenase Deficiency",
+              "Isovaleric Acidemia",
+              "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+              "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+              "3-Methylglutaconyl-CoA Hydratase Deficiency",
+              "Methylmalonic Acidemias"
+            ],
+            "jcr:created": "Tue Jun 10 2014 16:02:37 GMT+0530",
+            "jcr:primaryType": "sling:Folder",
+            "Methylmalonic_Acidemias": {
+              "resourceName": "Methylmalonic Acidemias",
+              "Test": [
+                "Methymalonyl-CoA Mutase Deficiency",
+                "Some Adenosylcobalamin Synthesis Defects",
+                "Maternal Vitamin B12 Deficiency",
+                "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+                "Propionic Acidemia",
+                "Multiple CoA Carboxylase Deficiency",
+                "Malonic Aciduria"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            }
+          },
+          "Amino_Acid_Disorders": {
+            "resourceName": "Amino Acid Disorders",
+            "jcr:createdBy": "admin",
+            "Test": [
+              "Argininemia",
+              "Argininosuccinic Aciduria",
+              "5-Oxoprolinuria1",
+              "Carbamoylphosphate Synthetase Deficiency1",
+              "Citrullinemia",
+              "Homocystinuria",
+              "Hypermethioninemia",
+              "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+              "Hyperornithinemia with Gyral Atrophy1",
+              "Maple Syrup Urine Disease",
+              "Phenylketonuria",
+              "Tyrosinemia"
+            ],
+            "jcr:created": "Tue Jun 10 2014 16:04:03 GMT+0530",
+            "jcr:primaryType": "sling:Folder",
+            "Phenylketonuria": {
+              "resourceName": "Phenylketonuria",
+              "Test": [
+                "Classical/Hyperphenylalaninemia",
+                "Biopterin Cofactor Deficiencies"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            },
+            "Tyrosinemia": {
+              "resourceName": "Tyrosinemia",
+              "Test": [
+                "Transient Neonatal Tyrosinemia",
+                "Tyrosinemia Type I1",
+                "Tyrosinemia Type II",
+                "Tyrosinemia Type III"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            }
+          },
+          "Other": {
+            "resourceName": "Other",
+            "Test": [
+              "Hyperalimentation",
+              "Medium Chain Triglyceride Oil Administration",
+              "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+              "Liver Disease",
+              "Presence of EDTA Coagulants in Blood Specimen",
+              "Carnitine Uptake Deficiency"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Disorders_Screened_by_Other_Technologies": {
+          "resourceName": "Disorders Screened by Other Technologies",
+          "Test": [
+            "Congenital Hypothyroidism",
+            "Galactosemia",
+            "Congenital Adrenal Hyperplasia",
+            "Glucose-6-Phosphate Dehydrogenase Deficiency",
+            "Biotinidase Deficiency",
+            "Cystic Fibrosis",
+            "Sickle Cell Anemia",
+            "Sickle-C Disease",
+            "S-Ã\u008eÂ²eta Thalassemia",
+            "Hb Variants"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "BIO6": {
+        "resourceName": "bio6",
+        "imagePath": "NeogenAppMobile/images",
+        "image": "bio6.png",
+        "Test": [
+          "Congenital Hypothyroidism",
+          "Galactosemia",
+          "Congenital Adrenal Hyperplasia",
+          "Glucose-6-Phosphate Dehydrogenase Deficiency",
+          "Biotinidase Deficiency",
+          "Cystic Fibrosis"
+        ],
+        "jcr:primaryType": "nt:unstructured"
+      },
+      "More": {
+        "resourceName": "more",
+        "imagePath": "NeogenAppMobile/images",
+        "image": "more.png",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Tue Jun 10 2014 16:18:45 GMT+0530",
+        "jcr:primaryType": "sling:Folder"
+      },
+      "FS+": {
+        "Tests": [
+          "Disorders_Screened_by_Tandem_Mass_Spectrometry",
+          "Disorders_Screened_by_Other_Technologies"
+        ],
+        "resourceName": "fs+",
+        "image": "fs.png",
+        "jcr:createdBy": "admin",
+        "Price": 5500,
+        "jcr:created": "Mon Jun 16 2014 10:18:44 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+          "resourceName": " Disorders Screened by Tandem Mass Spectrometry",
+          "jcr:createdBy": "admin",
+          "Test": [
+            "Fatty Acid Oxidation Disorders",
+            "Organic Acid Disorders",
+            "Amino Acid Disorders",
+            "Other"
+          ],
+          "jcr:created": "Mon Jun 16 2014 10:25:56 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Fatty_Acid_Oxidation_Disorders": {
+            "resourceName": "Fatty Acid Oxidation Disorders",
+            "Test": [
+              "Carnitine / Acylcarnitine Translocase Deficiency",
+              "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+              "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+              "Carnitine Palmitoyl Transferase Deficiency Type I1",
+              "2,4-Dienoyl-CoA Reductase Deficiency1",
+              "Multiple Acyl-CoA Dehydrogenase Deficiency",
+              "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+              "Trifunctional Protein Deficiency",
+              "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Organic_Acid_Disorders": {
+            "resourceName": "Organic Acid Disorders",
+            "jcr:createdBy": "admin",
+            "Test": [
+              "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+              "Glutaric Acidemia Type I",
+              "Isobutyryl-CoA Dehydrogenase Deficiency",
+              "Isovaleric Acidemia",
+              "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+              "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+              "3-Methylglutaconyl-CoA Hydratase Deficiency",
+              "Methylmalonic Acidemias"
+            ],
+            "jcr:created": "Mon Jun 16 2014 10:27:19 GMT+0530",
+            "jcr:primaryType": "sling:Folder",
+            "Methylmalonic_Acidemias": {
+              "reesourceName": " Methylmalonic Acidemias",
+              "Test": [
+                "Methymalonyl-CoA Mutase Deficiency",
+                "Some Adenosylcobalamin Synthesis Defects",
+                "Maternal Vitamin B12 Deficiency",
+                "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+                "Propionic Acidemia",
+                "Multiple CoA Carboxylase Deficiency",
+                "Malonic Aciduria"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            }
+          },
+          "Amino_Acid_Disorders": {
+            "resourceName": "Amino Acid Disorders",
+            "jcr:createdBy": "admin",
+            "Test": [
+              "Argininemia",
+              "Argininosuccinic Aciduria",
+              "5-Oxoprolinuria1",
+              "Carbamoylphosphate Synthetase Deficiency1",
+              "Citrullinemia",
+              "Homocystinuria",
+              "Hypermethioninemia",
+              "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+              "Hyperornithinemia with Gyral Atrophy1",
+              "Maple Syrup Urine Disease",
+              "Phenylketonuria",
+              "Tyrosinemia"
+            ],
+            "jcr:created": "Mon Jun 16 2014 10:29:27 GMT+0530",
+            "jcr:primaryType": "sling:Folder",
+            "Phenylketonuria": {
+              "resourceName": "Phenylketonuria",
+              "Test": [
+                "Classical/Hyperphenylalaninemia",
+                "Biopterin Cofactor Deficiencies"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            },
+            "Tyrosinemia": {
+              "resourceName": "Tyrosinemia",
+              "Test": [
+                "Transient Neonatal Tyrosinemia",
+                "Tyrosinemia Type I1",
+                "Tyrosinemia Type II",
+                "Tyrosinemia Type III"
+              ],
+              "jcr:primaryType": "nt:unstructured"
+            }
+          },
+          "Other": {
+            "resourceName": "Other",
+            "Test": [
+              "Hyperalimentation",
+              "Medium Chain Triglyceride Oil Administration",
+              "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+              "Liver Disease",
+              "Presence of EDTA Coagulants in Blood Specimen",
+              "Carnitine Uptake Deficiency"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        }
+      }
+    },
+    "More": {
+      "resourceName": "more",
+      "imagePath": "NeogenAppMobile/images",
+      "jcr:createdBy": "admin",
+      "image": "more.png",
+      "content": [
+        "Lab Schedule",
+        "Missing Report"
+      ],
+      "jcr:created": "Tue Jun 10 2014 16:19:18 GMT+0530",
+      "jcr:primaryType": "sling:Folder",
+      "Lab_Schedule": {
+        "Operation": "9 AM- 6 PM IST",
+        "resourceName": "Lab_Schedule",
+        "Lab_cut_off_time": "1 PM IST",
+        "image": "labschedule.png",
+        "imagePath": "NeogenAppMobile/images",
+        "jcr:primaryType": "nt:unstructured"
+      },
+      "Request_Report": {"jcr:primaryType": "nt:unstructured"}
+    }
+  },
+  "images": {
+    "redourceName": "images",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Fri Jun 13 2014 11:42:39 GMT+0530",
+    "jcr:primaryType": "sling:Folder",
+    "collectionGuideline.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 12:15:57 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "f124ffb6-6fd5-455c-a49c-35064fcf6847",
+        ":jcr:data": 19461,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 12:15:57 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "dbs.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 12:16:19 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "7a385897-2dc6-4c29-a887-737e4c98f5ae",
+        ":jcr:data": 90153,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 12:16:19 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "First_Step.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 12:16:26 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "42acf024-599e-4a0b-b1ab-af4517a3106f",
+        ":jcr:data": 19888,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 12:16:26 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "doctorNav.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 12:16:38 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "de1f4b5a-27c3-4ac2-b714-69273538f9ec",
+        ":jcr:data": 8295,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 12:16:38 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "more.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 12:16:55 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "77972d64-9e58-4543-b6ef-bccab4930514",
+        ":jcr:data": 11900,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 12:16:55 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "panelInformation.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 12:17:09 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "518ee359-4b82-471b-b2d9-37e2bf66f91d",
+        ":jcr:data": 19027,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 12:17:09 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "parents.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 16:20:42 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "85253b71-cabf-447e-bd76-ff46834f7f3f",
+        ":jcr:data": 15647,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 16:20:42 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "doctors.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 16:20:58 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "3271ae02-b9ea-4ffc-be48-2678a678b523",
+        ":jcr:data": 16247,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 16:20:58 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "circlesDesign.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 16:21:41 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "6a4437a2-235b-4b54-bb53-6de11a7edd5c",
+        ":jcr:data": 377843,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 16:21:41 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "orderATest.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 16:26:30 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "36429e75-00d7-4079-83e7-928f8b63cb05",
+        ":jcr:data": 16046,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 16:26:30 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "parentNav.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 30 2014 12:17:27 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "3785becc-ba47-4e1d-9f61-6f802c601102",
+        ":jcr:data": 8653,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Mon Jun 30 2014 12:17:27 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "neogenLogo.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Tue Jul 01 2014 11:28:58 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "d91b61b8-cf76-4398-bb51-a7ebe8a166d8",
+        ":jcr:data": 11786,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Tue Jul 01 2014 11:28:58 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "fs.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Tue Jul 01 2014 12:05:21 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "942ce637-0d3c-47c6-a102-90ac1ebd6c16",
+        ":jcr:data": 15104,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Tue Jul 01 2014 12:05:21 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "bio6.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Tue Jul 01 2014 12:05:49 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "92039048-194d-467c-be7f-4edd2edaee9c",
+        ":jcr:data": 12663,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Tue Jul 01 2014 12:05:49 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "hb+fs+.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Tue Jul 01 2014 12:06:10 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "f5758865-9a12-4fb0-a8a1-8dfbe87e090a",
+        ":jcr:data": 16164,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Tue Jul 01 2014 12:06:10 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "ms.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Tue Jul 01 2014 12:07:34 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "2d467171-baab-4d39-af91-6eff91bb09fb",
+        ":jcr:data": 15373,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Tue Jul 01 2014 12:07:34 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "back.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Tue Jul 01 2014 16:38:14 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "ac05753e-8032-44cc-91d3-3f4d454720c2",
+        ":jcr:data": 5516,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Tue Jul 01 2014 16:38:14 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    },
+    "cart.png": {
+      "jcr:createdBy": "admin",
+      "jcr:created": "Tue Jul 01 2014 17:29:44 GMT+0530",
+      "jcr:primaryType": "nt:file",
+      "jcr:content": {
+        "jcr:lastModifiedBy": "admin",
+        "jcr:uuid": "cf6e08de-c572-4459-ac8d-91ad898ebe31",
+        ":jcr:data": 6111,
+        "jcr:mimeType": "image/png",
+        "jcr:lastModified": "Tue Jul 01 2014 17:29:44 GMT+0530",
+        "jcr:primaryType": "nt:resource"
+      }
+    }
+  },
+  "Order_A_Test": {
+    "resourceName": "Order_A_Test",
+    "imagePath": "NeogenAppMobile/images",
+    "image": "orderATest.png",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Sat Jun 14 2014 11:10:30 GMT+0530",
+    "jcr:primaryType": "sling:Folder",
+    "Mail": {
+      "CompanyMail": "app@neogen.com",
+      "jcr:primaryType": "nt:unstructured",
+      "Demo": {
+        "jcr:createdBy": "admin",
+        "jcr:created": "Wed Jul 02 2014 00:09:23 GMT+0530",
+        "jcr:primaryType": "sling:Folder"
+      }
+    }
+  },
+  "Contact_Us": {
+    "jcr:createdBy": "admin",
+    "jcr:created": "Sat Jun 14 2014 11:32:12 GMT+0530",
+    "jcr:primaryType": "sling:Folder",
+    "Mail": {
+      "resourceName": "Mail",
+      "CompanyMail": "app@neogen.com",
+      "jcr:primaryType": "nt:unstructured"
+    }
+  },
+  "Panel_Information": {
+    "Tests": [
+      "Hb+FS+",
+      "FS+",
+      "MS",
+      "BIO6",
+      "BIO5",
+      "BIO4",
+      "Hb+"
+    ],
+    "resourceName": "Panel_Information",
+    "imagePath": "NeogenAppMobile/images",
+    "jcr:createdBy": "admin",
+    "image": "panelInformation.png",
+    "jcr:created": "Mon Jun 16 2014 10:35:22 GMT+0530",
+    "jcr:primaryType": "sling:Folder",
+    "FS+": {
+      "Tests": [
+        "Disorders_Screened_by_Tandem_Mass_Spectrometry",
+        "Disorders_Screened_by_Other_Technologies"
+      ],
+      "resourceName": "FS+",
+      "price": 5500,
+      "imagePath": "NeogenAppMobile/images",
+      "image": "fs+.png",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 16 2014 10:56:11 GMT+0530",
+      "jcr:primaryType": "sling:Folder",
+      "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+        "resourceName": "Disorders Screened by Tandem Mass Spectrometry",
+        "jcr:createdBy": "admin",
+        "Test": [
+          "Fatty Acid Oxidation Disorders",
+          "Organic Acid Disorders",
+          "Amino Acid Disorders",
+          "Other"
+        ],
+        "jcr:created": "Mon Jun 16 2014 10:57:03 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "Fatty_Acid_Oxidation_Disorders": {
+          "resourceName": "Fatty Acid Oxidation Disorders",
+          "Test": [
+            "Carnitine / Acylcarnitine Translocase Deficiency",
+            "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+            "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Carnitine Palmitoyl Transferase Deficiency Type I1",
+            "2,4-Dienoyl-CoA Reductase Deficiency1",
+            "Multiple Acyl-CoA Dehydrogenase Deficiency",
+            "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+            "Trifunctional Protein Deficiency",
+            "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Organic_Acid_Disorders": {
+          "resourceName": "Organic Acid Disorders",
+          "jcr:createdBy": "admin",
+          "Test": [
+            "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+            "Glutaric Acidemia Type I",
+            "Isobutyryl-CoA Dehydrogenase Deficiency",
+            "Isovaleric Acidemia",
+            "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+            "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+            "3-Methylglutaconyl-CoA Hydratase Deficiency"
+          ],
+          "jcr:created": "Mon Jun 16 2014 10:58:30 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Methylmalonic_Acidemias": {
+            "reesourceName": "Methylmalonic Acidemias",
+            "Test": [
+              "Methymalonyl-CoA Mutase Deficiency",
+              "Some Adenosylcobalamin Synthesis Defects",
+              "Maternal Vitamin B12 Deficiency",
+              "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+              "Propionic Acidemia",
+              "Multiple CoA Carboxylase Deficiency",
+              "Malonic Aciduria"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Amino_Acid_Disorders": {
+          "resourceName": "Amino Acid Disorders",
+          "jcr:createdBy": "admin",
+          "Test": [
+            "Argininemia",
+            "Argininosuccinic Aciduria",
+            "5-Oxoprolinuria1",
+            "Carbamoylphosphate Synthetase Deficiency1",
+            "Citrullinemia",
+            "Homocystinuria",
+            "Hypermethioninemia",
+            "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+            "Hyperornithinemia with Gyral Atrophy1",
+            "Maple Syrup Urine Disease",
+            "Phenylketonuria",
+            "Tyrosinemia"
+          ],
+          "jcr:created": "Mon Jun 16 2014 10:59:51 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Phenylketonuria": {
+            "resourceName": "Phenylketonuria",
+            "Test": [
+              "Classical/Hyperphenylalaninemia",
+              "Biopterin Cofactor Deficiencies"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Tyrosinemia": {
+            "resourceName": "Tyrosinemia",
+            "Test": [
+              "Transient Neonatal Tyrosinemia",
+              "Tyrosinemia Type I1",
+              "Tyrosinemia Type II",
+              "Tyrosinemia Type III"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Other": {
+          "resourceName": "Other",
+          "Test": [
+            "Hyperalimentation",
+            "Medium Chain Triglyceride Oil Administration",
+            "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+            "Liver Disease",
+            "Presence of EDTA Coagulants in Blood Specimen",
+            "Carnitine Uptake Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "Disorders_Screened_by_Other_Technologies": {
+        "resourceName": "Disorders Screened by Other Technologies",
+        "jcr:createdBy": "admin",
+        "Test": [
+          "Other",
+          "Haemoglobin Apathy"
+        ],
+        "Other": [
+          "Congenital Hypothyroidism",
+          "Galactosemia",
+          "Congenital Adrenal Hyperplasia",
+          "Glucose-6-Phosphate Dehydrogenase Deficiency",
+          "Biotinidase Deficiency",
+          "Cystic Fibrosis"
+        ],
+        "jcr:created": "Mon Jun 30 2014 14:03:29 GMT+0530",
+        "jcr:primaryType": "sling:Folder"
+      }
+    },
+    "FS": {
+      "Tests": [
+        "Disorders_Screened_by_Tandem_Mass_Spectrometry",
+        "Disorders_Screened_by_Other_Technologies"
+      ],
+      "resourceName": "FS",
+      "price": 5000,
+      "image": "fs.png",
+      "jcr:createdBy": "admin",
+      "imagePath": "NeogenAppMobile/images",
+      "jcr:created": "Mon Jun 16 2014 11:07:32 GMT+0530",
+      "jcr:primaryType": "sling:Folder",
+      "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+        "resourceName": "Disorder Screened by TMS",
+        "jcr:createdBy": "admin",
+        "Test": [
+          "Fatty Acid Oxidation Disorders",
+          "Organic Acid Disorders",
+          "Amino Acid Disorders",
+          "Other"
+        ],
+        "jcr:created": "Mon Jun 16 2014 11:09:20 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "Fatty_Acid_Oxidation_Disorders": {
+          "resourceName": "Fatty Acid Oxidation Disorders",
+          "Test": [
+            "Carnitine / Acylcarnitine Translocase Deficiency",
+            "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+            "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Carnitine Palmitoyl Transferase Deficiency Type I1",
+            "2,4-Dienoyl-CoA Reductase Deficiency1",
+            "Multiple Acyl-CoA Dehydrogenase Deficiency",
+            "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+            "Trifunctional Protein Deficiency",
+            "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Organic_Acid_Disorders": {
+          "resourceName": "Organic Acid Disorders",
+          "jcr:createdBy": "admin",
+          "Test": [
+            "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+            "Glutaric Acidemia Type I",
+            "Isobutyryl-CoA Dehydrogenase Deficiency",
+            "Isovaleric Acidemia",
+            "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+            "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+            "3-Methylglutaconyl-CoA Hydratase Deficiency"
+          ],
+          "jcr:created": "Mon Jun 16 2014 11:12:20 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Methylmalonic_Acidemias": {
+            "reesourceName": "Methylmalonic Acidemias",
+            "Test": [
+              "Methymalonyl-CoA Mutase Deficiency",
+              "Some Adenosylcobalamin Synthesis Defects",
+              "Maternal Vitamin B12 Deficiency",
+              "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+              "Propionic Acidemia",
+              "Multiple CoA Carboxylase Deficiency",
+              "Malonic Aciduria"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Amino_Acid_Disorders": {
+          "resourceName": "Amino Acid Disorders",
+          "jcr:createdBy": "admin",
+          "Test": [
+            "Argininemia",
+            "Argininosuccinic Aciduria",
+            "5-Oxoprolinuria1",
+            "Carbamoylphosphate Synthetase Deficiency1",
+            "Citrullinemia",
+            "Homocystinuria",
+            "Hypermethioninemia",
+            "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+            "Hyperornithinemia with Gyral Atrophy1",
+            "Maple Syrup Urine Disease",
+            "Phenylketonuria",
+            "Tyrosinemia"
+          ],
+          "jcr:created": "Mon Jun 16 2014 11:13:53 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Phenylketonuria": {
+            "resourceName": "Phenylketonuria",
+            "Test": [
+              "Classical/Hyperphenylalaninemia",
+              "Biopterin Cofactor Deficiencies"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Tyrosinemia": {
+            "resourceName": "Tyrosinemia",
+            "Test": [
+              "Transient Neonatal Tyrosinemia",
+              "Tyrosinemia Type I1",
+              "Tyrosinemia Type II",
+              "Tyrosinemia Type III"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Other": {
+          "resourceName": "Other",
+          "Test": [
+            "Hyperalimentation",
+            "Medium Chain Triglyceride Oil Administration",
+            "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+            "Liver Disease",
+            "Presence of EDTA Coagulants in Blood Specimen",
+            "Carnitine Uptake Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "Disorders_Screened_by_Other_Technologies": {
+        "resourceName": "Disorders Screened by Other Technologies",
+        "jcr:createdBy": "admin",
+        "Test": [
+          "Other",
+          "Haemoglobin Apathy"
+        ],
+        "Other": [
+          "Congenital Hypothyroidism",
+          "Galactosemia",
+          "Congenital Adrenal Hyperplasia",
+          "Glucose-6-Phosphate Dehydrogenase Deficiency",
+          "Biotinidase Deficiency"
+        ],
+        "jcr:created": "Mon Jun 30 2014 14:04:44 GMT+0530",
+        "jcr:primaryType": "sling:Folder"
+      }
+    },
+    "MS": {
+      "resourceName": "MS",
+      "price": 4000,
+      "jcr:createdBy": "admin",
+      "image": "ms.png",
+      "imagePath": "NeogenAppMobile/images",
+      "Test": [
+        "Fatty Acid Oxidation Disorder",
+        "Organic Acid Disorder",
+        "Amino Acid Disorders"
+      ],
+      "jcr:created": "Mon Jun 16 2014 11:17:46 GMT+0530",
+      "jcr:primaryType": "sling:Folder",
+      "Fatty_Acid_Oxidation_Disorders": {
+        "resourceName": "Fatty Acid Oxidation Disorders",
+        "Test": [
+          "Carnitine / Acylcarnitine Translocase Deficiency",
+          "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+          "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+          "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+          "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+          "Carnitine Palmitoyl Transferase Deficiency Type I1",
+          "2,4-Dienoyl-CoA Reductase Deficiency1",
+          "Multiple Acyl-CoA Dehydrogenase Deficiency",
+          "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+          "Trifunctional Protein Deficiency",
+          "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+        ],
+        "jcr:primaryType": "nt:unstructured"
+      },
+      "Organic_Acid_Disorders": {
+        "resourceName": "Organic_Acid_Disorders",
+        "jcr:createdBy": "admin",
+        "Test": [
+          "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+          "Glutaric Acidemia Type I",
+          "Isobutyryl-CoA Dehydrogenase Deficiency",
+          "Isovaleric Acidemia",
+          "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+          "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+          "3-Methylglutaconyl-CoA Hydratase Deficiency"
+        ],
+        "jcr:created": "Mon Jun 16 2014 11:30:54 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "Methylmalonic_Acidemias": {
+          "reesourceName": "Methylmalonic Acidemias",
+          "Test": [
+            "Methymalonyl-CoA Mutase Deficiency",
+            "Some Adenosylcobalamin Synthesis Defects",
+            "Maternal Vitamin B12 Deficiency",
+            "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+            "Propionic Acidemia",
+            "Multiple CoA Carboxylase Deficiency",
+            "Malonic Aciduria"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "Amino_Acid_Disorders": {
+        "resourceName": "Amino Acid Disorders",
+        "jcr:createdBy": "admin",
+        "Test": [
+          "Argininemia",
+          "Argininosuccinic Aciduria",
+          "5-Oxoprolinuria1",
+          "Carbamoylphosphate Synthetase Deficiency1",
+          "Citrullinemia",
+          "Homocystinuria",
+          "Hypermethioninemia",
+          "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+          "Hyperornithinemia with Gyral Atrophy1",
+          "Maple Syrup Urine Disease",
+          "Phenylketonuria",
+          "Tyrosinemia"
+        ],
+        "jcr:created": "Mon Jun 16 2014 11:33:00 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "Phenylketonuria": {
+          "resourceName": "Phenylketonuria",
+          "Test": [
+            "Classical/Hyperphenylalaninemia",
+            "Biopterin Cofactor Deficiencies"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Tyrosinemia": {
+          "resourceName": "Tyrosinemia",
+          "Test": [
+            "Transient Neonatal Tyrosinemia",
+            "Tyrosinemia Type I1",
+            "Tyrosinemia Type II",
+            "Tyrosinemia Type III"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      }
+    },
+    "Hb+": {
+      "Tests": [
+        "Sickle Cell Anemia",
+        "Sickle-C Disease",
+        "S-Ã\u008eÂ²eta Thalassemia",
+        "Hb Variants"
+      ],
+      "resourceName": "Hb+",
+      "price": 750,
+      "image": "hb+.png",
+      "imagePath": "NeogenAppMobile/images",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "Hb+FS+": {
+      "Tests": [
+        "Disorders Screened by Other Technologies",
+        "Disorders Screened by Tandem Mass Spectrometry"
+      ],
+      "resourceName": "Hb+FS+",
+      "price": "6000.00",
+      "imagePath": "NeogenAppMobile/images",
+      "image": "hb+fs+.png",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Mon Jun 16 2014 10:38:53 GMT+0530",
+      "jcr:primaryType": "sling:Folder",
+      "Disorders_Screened_by_Tandem_Mass_Spectrometry": {
+        "resourceName": "Disorders Screened by Tandem Mass Spectrometry",
+        "jcr:createdBy": "admin",
+        "Test": [
+          "Fatty Acid Oxidation Disorder",
+          "Organic Acid Disorder",
+          "Amino Acid Disorder",
+          "Other"
+        ],
+        "jcr:created": "Mon Jun 16 2014 10:39:42 GMT+0530",
+        "jcr:primaryType": "sling:Folder",
+        "Fatty_Acid_Oxidation_Disorders": {
+          "resourceName": "Fatty_Acid_Oxidation_Disorders",
+          "Test": [
+            "Carnitine / Acylcarnitine Translocase Deficiency",
+            "3-Hydroxy Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Medium Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Neonatal Carnitine Palmitoyl Transferase Deficiency Type II",
+            "Very Long Chain Acyl-CoA Dehydrogenase Deficiency",
+            "Carnitine Palmitoyl Transferase Deficiency Type I1",
+            "2,4-Dienoyl-CoA Reductase Deficiency1",
+            "Multiple Acyl-CoA Dehydrogenase Deficiency",
+            "Short-chain Acyl-CoA Dehydrogenase Deficiency",
+            "Trifunctional Protein Deficiency",
+            "Short chain Hydroxy Acyl-CoA Dehydrogenase Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "Organic_Acid_Disorders": {
+          "resourceName": "Organic_Acid_Disorders",
+          "jcr:createdBy": "admin",
+          "Test": [
+            "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+            "Glutaric Acidemia Type I",
+            "Isobutyryl-CoA Dehydrogenase Deficiency",
+            "Isovaleric Acidemia",
+            "2-Methylbutyryl-CoA Dehydrogenase Deficiency",
+            "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+            "3-Methylglutaconyl-CoA Hydratase Deficiency"
+          ],
+          "jcr:created": "Mon Jun 16 2014 10:41:40 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Methylmalonic_Acidemias": {
+            "resourceName": "Methylmalonic_Acidemias",
+            "Test": [
+              "Methymalonyl-CoA Mutase Deficiency",
+              "Some Adenosylcobalamin Synthesis Defects",
+              "Maternal Vitamin B12 Deficiency",
+              "Mitochondrial Acetoacetyl-CoA Thiolase Deficiency",
+              "Propionic Acidemia",
+              "Multiple CoA Carboxylase Deficiency",
+              "Malonic Aciduria"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Amino_Acid_Disorders": {
+          "resourceName": "Amino_Acid_Disorders",
+          "jcr:createdBy": "admin",
+          "Test": [
+            "Argininemia",
+            "Argininosuccinic Aciduria",
+            "5-Oxoprolinuria1",
+            "Carbamoylphosphate Synthetase Deficiency1",
+            "Citrullinemia",
+            "Homocystinuria",
+            "Hypermethioninemia",
+            "Hyperammonemia, Hyperornithinemia, Homocitrullinuria Syndrome1",
+            "Hyperornithinemia with Gyral Atrophy1",
+            "Maple Syrup Urine Disease",
+            "Phenylketonuria",
+            "Tyrosinemia"
+          ],
+          "jcr:created": "Mon Jun 16 2014 10:43:21 GMT+0530",
+          "jcr:primaryType": "sling:Folder",
+          "Phenylketonuria": {
+            "resourceName": "Phenylketonuria",
+            "Test": [
+              "Classical/Hyperphenylalaninemia",
+              "Biopterin Cofactor Deficiencies"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "Tyrosinemia": {
+            "resourceName": "Tyrosinemia",
+            "Test": [
+              "Transient Neonatal Tyrosinemia",
+              "Tyrosinemia Type I1",
+              "Tyrosinemia Type II",
+              "Tyrosinemia Type III"
+            ],
+            "jcr:primaryType": "nt:unstructured"
+          }
+        },
+        "Other": {
+          "resourceName": "Other",
+          "Test": [
+            "Hyperalimentation",
+            "Medium Chain Triglyceride Oil Administration",
+            "Treatment with Benzoate, Pyvalic Acid, or Valproic Acid",
+            "Liver Disease",
+            "Presence of EDTA Coagulants in Blood Specimen",
+            "Carnitine Uptake Deficiency"
+          ],
+          "jcr:primaryType": "nt:unstructured"
+        }
+      },
+      "Disorders_Screened_by_Other_Technologies": {
+        "Haemoglobin_Apathy": [
+          "Sickle Cell Anemia",
+          "Sickle-C Disease",
+          "Hb Variants",
+          "S-Beta Thalassemia"
+        ],
+        "resourceName": "Disorders Screened by Other Technologies",
+        "jcr:createdBy": "admin",
+        "Other": [
+          "Congenital Hypothyroidism",
+          "Galactosemia",
+          "Congenital Adrenal Hyperplasia",
+          "Glucose-6-Phosphate Dehydrogenase Deficiency",
+          "Biotinidase Deficiency",
+          "Cystic Fibrosis"
+        ],
+        "Test": [
+          "Other",
+          "Haemoglobin Apathy"
+        ],
+        "jcr:created": "Mon Jun 30 2014 14:05:57 GMT+0530",
+        "jcr:primaryType": "sling:Folder"
+      }
+    },
+    "Bio6": {
+      "resourceName": "Bio6",
+      "price": 2500,
+      "imagePath": "NeogenAppMobile/images",
+      "image": "bio6.png",
+      "Test": [
+        "Congenital Hypothyroidism",
+        "Galactosemia",
+        "Congenital Adrenal Hyperplasia",
+        "Glucose-6-Phosphate Dehydrogenase Deficiency",
+        "Biotinidase Deficiency",
+        "Cystic Fibrosis"
+      ],
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "Bio5": {
+      "resourceName": "Bio5",
+      "price": 2000,
+      "imagePath": "NeogenAppMobile/images",
+      "image": "bio5.png",
+      "Test": [
+        "Congenital Hypothyroidism",
+        "Galactosemia",
+        "Congenital Adrenal Hyperplasia",
+        "Glucose-6-Phosphate Dehydrogenase Deficiency",
+        "Biotinidase Deficiency"
+      ],
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "Bio4": {
+      "resourceName": "Bio4",
+      "price": 1500,
+      "imagePath": "NeogenAppMobile/images",
+      "image": "bio4.png",
+      "Test": [
+        "Congenital Hypothyroidism",
+        "Galactosemia",
+        "Congenital Adrenal Hyperplasia",
+        "Glucose-6-Phosphate Dehydrogenase Deficiency"
+      ],
+      "jcr:primaryType": "nt:unstructured"
+    }
+  }
+}

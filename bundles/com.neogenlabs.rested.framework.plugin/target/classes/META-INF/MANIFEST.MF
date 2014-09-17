@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: SUBHAJIT
+Tool: Bnd-0.0.357
+Bundle-Name: com.neogenlabs.rested.framework.plugin
+Created-By: Apache Maven Bundle Plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Version: 1.0.2.SNAPSHOT
+Build-Jdk: 1.7.0_60
+Bnd-LastModified: 1404354769811
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.neogenlabs.rested.framework.plugin.Activator
+Import-Package: javax.servlet,javax.servlet.http,org.apache.felix.dm;v
+ ersion="3.0",org.apache.felix.webconsole;version="3.1",org.osgi.frame
+ work;version="1.4"
+Bundle-SymbolicName: com.neogenlabs.rested.com.neogenlabs.rested.frame
+ work.plugin;singleton:=true
+

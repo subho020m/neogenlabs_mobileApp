@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: AMIT
+Tool: Bnd-0.0.357
+Bundle-Name: com.neogenlabs.backup.app
+Created-By: Apache Maven Bundle Plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: NeoGen Labs
+Build-Jdk: 1.7.0_60
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1404404234694
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.neogenlabs.backup.app.Activator
+Import-Package: org.apache.felix.dm;version="3.0",org.osgi.framework;v
+ ersion="1.4",org.slf4j;version="1.6"
+Bundle-SymbolicName: com.neogenlabs.backup.com.neogenlabs.backup.app;s
+ ingleton:=true
+

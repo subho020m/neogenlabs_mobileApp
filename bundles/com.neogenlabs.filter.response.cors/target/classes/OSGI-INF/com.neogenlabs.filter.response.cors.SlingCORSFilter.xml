@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="com.neogenlabs.filter.response.cors.SlingCORSFilter">
+        <implementation class="com.neogenlabs.filter.response.cors.SlingCORSFilter"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Filter"/>
+        </service>
+        <property name="service.ranking" type="Integer" value="1"/>
+        <property name="sling.filter.scope" value="REQUEST"/>
+        <property name="service.vendor" value="NeoGen Labs"/>
+        <property name="service.pid" value="com.neogenlabs.filter.response.cors.SlingCORSFilter"/>
+    </scr:component>
+</components>

@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="ncss.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery.min2.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script	src="jquery.smint.js" type="text/javascript" ></script>
+	<script type="text/javascript">
+	
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+
+</script>
+
+<script>
+window.addEventListener("load",function() {
+  setTimeout(function(){
+    window.scrollTo(0, 1);
+  }, 0);
+});</script>
+
+</head>
+<body>
+
+
+	<div class="wrap ">
+		
+		<br class="clear">
+	</div>
+	<div class="subMenu" >
+	 	<div class="inner">
+	 		<!Navigation Bar, contains all the editable properties header>
+	 		<a href="#intro" class="subNavBtn">Parent & Doctor</a> 
+			<a href="#s1" class="subNavBtn">Panel & First Step</a>
+			<a href="#s2" class="subNavBtn">Collection and More</a>
+			<a href="#s3" class="subNavBtn">TMS Panel</a>
+			<a href="#s4" class="subNavBtn">Other Tech Panel</a>
+			<a href="#s5" class="subNavBtn end">Edit Entire & More</a>
+		</div>			
+	</div>
+	<div class="section intro">
+		<!parents property >
+		<div class="inner homeNews">
+			<div class="col-1-2">
+				<h1>Edit Parents Properties!</h1>
+				<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/For_Parents.html" enctype="multipart/form-data">
+				resourceName:<input class="name-box" type="text" id="resourceName" /><br />
+				image:<input class="email-box" id="image" /><br />
+				imagePath:<input class="email-box"  id="imagePath"/></textarea><br />
+				<input class="animated bounceIn" type="submit" value="Submit">
+				</form>
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+				 Upload Image<input type="file" name="parents.png" />
+				<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+				<input class="animated bounceIn" type="submit" value="Upload">
+				</form>
+		<script>
+		//ajax call to fetch parents property using the .json uri
+		$.ajax({
+			url: 'http://192.210.137.153:8080/NeoGenAppMobile/For_Parents.json',
+			dataType: 'json',
+			jsonpCallback: 'MyJSONPCallback', 
+			success: function(data){
+       
+				$('#resourceName').attr("name" , "resourceName");
+				$('#resourceName').attr("value" , data["resourceName"]);
+				$('#image').attr("name" , "image");
+				$('#image').attr("value" , data["image"]);
+				$('#imagePath').attr("name" , "imagePath");
+				$('#imagePath').attr("value" , data["imagePath"]);
+						
+						
+						}
+				});
+		</script>
+			</div> <!-- ENDS FORM CONTAINER -->
+		</div>
+	<div class="col-1-2">
+			<!Doctors Property>
+			<h1>Edit Doctors Properties!</h1>
+			<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/For_Doctors.html" enctype="multipart/form-data">
+				resourceName:<input class="name-box" type="text" id="DresourceName" /><br />
+				image:<input class="email-box" id="Dimage" /><br />
+				imagePath:<input class="email-box"  id="DimagePath"/></textarea><br />
+				<input class="animated bounceIn" type="submit" value="Submit">
+				</form>
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+				 Upload Image<input type="file" name="doctors.png" />
+				<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+				<input class="animated bounceIn" type="submit" value="Upload">
+				</form>
+			<script>
+				$.ajax({
+						url: 'http://192.210.137.153:8080/NeoGenAppMobile/For_Doctors.json',
+						dataType: 'json',
+						jsonpCallback: 'MyJSONPCallback', 
+						success: function(data){
+           
+						$('#DresourceName').attr("name" , "resourceName");
+						$('#DresourceName').attr("value" , data["resourceName"]);
+						$('#Dimage').attr("name" , "image");
+						$('#Dimage').attr("value" , data["image"]);
+						$('#DimagePath').attr("name" , "imagePath");
+						$('#DimagePath').attr("value" , data["imagePath"]);
+						
+						
+												}
+						});
+			</script>
+		</div> <!-- ENDS FORM CONTAINER -->
+		</div>
+	</div>
+
+	</div>
+
+<div class="section s1">
+		
+		<div class="inner">
+			<div class="col-1-2">
+			<h1>Edit First Step Properties!</h1>
+			<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/For_Parents/First_Step.html" enctype="multipart/form-data">
+				resourceName:<input class="name-box" type="text" id="FresourceName" /><br />
+				image:<input class="email-box" id="Fimage" /><br />
+				Content:<input class="email-box"  id="FContent"/></textarea><br />
+				<input class="animated bounceIn" type="submit" value="Submit">
+				</form>
+				
+				<script>
+					$.ajax({
+						url: 'http://192.210.137.153:8080/NeoGenAppMobile/For_Parents/First_Step.json',
+						dataType: 'json',
+						jsonpCallback: 'MyJSONPCallback', 
+						success: function(data){
+       
+						$('#FresourceName').attr("name" , "resourceName");
+						$('#FresourceName').attr("value" , data["resourceName"]);
+						$('#Fimage').attr("name" , "image");
+						$('#Fimage').attr("value" , data["image"]);
+						$('#FContent').attr("name" , "Content");
+						$('#FContent').attr("value" , data["Content"]);
+						
+						
+												}
+							});
+				</script>
+			</div> <!-- ENDS FORM CONTAINER -->
+		</div>
+		<div class="col-1-2">
+			<h1>Edit Panel Information Properties!</h1>
+			<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information.html" enctype="multipart/form-data">
+				resourceName:<input class="name-box" type="text" id="PresourceName" /><br />
+				image:<input class="email-box" id="Pimage" /><br />
+				imagePath:<input class="email-box"  id="PimagePath"/></textarea><br />
+				<input class="animated bounceIn" type="submit" value="Submit">
+				</form>
+				
+				<script>
+					$.ajax({
+						url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information.json',
+						dataType: 'json',
+						jsonpCallback: 'MyJSONPCallback', 
+						success: function(data){
+           
+						$('#PresourceName').attr("name" , "resourceName");
+						$('#PresourceName').attr("value" , data["resourceName"]);
+						$('#Pimage').attr("name" , "image");
+						$('#Pimage').attr("value" , data["image"]);
+						$('#PimagePath').attr("name" , "imagePath");
+						$('#PimagePath').attr("value" , data["imagePath"]);		
+												}
+							});
+				</script>
+			</div> <!-- ENDS FORM CONTAINER -->
+		</div>
+</div>
+</div>
+
+
+
+<div class="section s2">
+	<div class="inner">
+			
+		<div class="col-1-2">
+			<h1>Edit More Properties!</h1>
+			<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/For_Parents/More.html" enctype="multipart/form-data">
+				resourceName:<input class="name-box" type="text" id="MresourceName" /><br />
+				image:<input class="email-box" id="Mimage" /><br />
+				imagePath:<input class="email-box"  id="MimagePath"/></textarea><br />
+				<input class="animated bounceIn" type="submit" value="Submit">
+				</form>
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+				 Upload Image<input type="file" name="more.png" />
+				<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+				<input class="animated bounceIn" type="submit" value="Upload">
+				</form>
+				<script>
+					$.ajax({
+					url: 'http://192.210.137.153:8080/NeoGenAppMobile/For_Parents/More.json',
+					dataType: 'json',
+					jsonpCallback: 'MyJSONPCallback', 
+					success: function(data){
+       
+					$('#MresourceName').attr("name" , "resourceName");
+					$('#MresourceName').attr("value" , data["resourceName"]);
+					$('#Mimage').attr("name" , "image");
+					$('#Mimage').attr("value" , data["image"]);
+					$('#MimagePath').attr("name" , "imagePath");
+					$('#MimagePath').attr("value" , data["imagePath"]);
+											}
+							});
+				</script>
+			</div> <!-- ENDS FORM CONTAINER -->
+		</div>
+		<div class="col-1-2">
+			<h1>Edit Collection Guidelines !</h1>
+			<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/For_Doctors/Collection_Guideline.html" enctype="multipart/form-data">
+				resourceName:<input class="name-box" type="text" id="CresourceName" /><br />
+				image:<input class="email-box" id="Cimage" /><br />
+				Collection Guideline:<input class="email-box"  id="Collection"/><br />
+				Transfusion:<input class="email-box"  id="Transfusion"/><br />
+				<input class="animated bounceIn" type="submit" value="Submit">
+				</form>
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+				 Upload Image<input type="file" name="collectionGuideline.png" />
+				<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+				<input class="animated bounceIn" type="submit" value="Upload">
+				</form>
+				<script>
+					$.ajax({
+							url: 'http://192.210.137.153:8080/NeoGenAppMobile/For_Doctors/Collection_Guideline.json',
+							dataType: 'json',
+							jsonpCallback: 'MyJSONPCallback', 
+							success: function(data){
+           
+							$('#CresourceName').attr("name" , "resourceName");
+							$('#CresourceName').attr("value" , data["resourceName"]);
+							$('#Cimage').attr("name" , "image");
+							$('#Cimage').attr("value" , data["image"]);
+							$('#Transfusion').attr("name" , "Transfusion");
+							$('#Transfusion').attr("value" , data["Transfusion"]);
+							$('#Collection').attr("name" , "CollectionGuidelines");
+							$('#Collection').attr("value" , data["CollectionGuidelines"]);
+													}
+							});
+				</script>
+			</div> <!-- ENDS FORM CONTAINER -->
+		</div>
+	</div>
+</div>
+
+
+
+<div class="section s3">
+	<div class="inner">
+		<div class="col-1-2">
+			<h1>Edit Hb+FS+ Properties!</h1>
+			<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Hb+FS+.html" enctype="multipart/form-data">
+				resourceName:<input class="name-box" type="text" id="hresourceName" /><br />
+				image:<input class="email-box" id="himage" /><br />
+				price:<input class="email-box"  id="hprice"/></textarea><br />
+				imagePath:<input class="email-box"  id="himagePath"/></textarea><br />
+				<input class="animated bounceIn" type="submit" value="Submit">
+				</form>
+				<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+				 Upload Image<input type="file" name="hb+fs+.png" />
+				<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+				<input class="animated bounceIn" type="submit" value="Upload">
+				</form>
+				<script>
+					$.ajax({
+					url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Hb+FS+.json',
+					dataType: 'json',
+					jsonpCallback: 'MyJSONPCallback', 
+					success: function(data){
+       
+					$('#hresourceName').attr("name" , "resourceName");
+					$('#hresourceName').attr("value" , data["resourceName"]);
+					$('#himage').attr("name" , "image");
+					$('#himage').attr("value" , data["image"]);
+					$('#himagePath').attr("name" , "imagePath");
+					$('#himagePath').attr("value" , data["imagePath"]);
+					$('#hprice').attr("name" , "price");
+					$('#hprice').attr("value" , data["price"]);
+											}
+							});
+				</script>
+			</div> <!-- ENDS FORM CONTAINER -->
+		</div>
+		<div class="col-1-2">
+			<h1>Edit FS+ Properties !</h1>
+				<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+					<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/FS+.html" enctype="multipart/form-data">
+					resourceName:<input class="name-box" type="text" id="fsresourceName" /><br />
+					image:<input class="email-box" id="fsimage" /><br />
+					price:<input class="email-box"  id="fsprice"/></textarea><br />
+					imagePath:<input class="email-box"  id="fsimagePath"/></textarea><br />
+					<input class="animated bounceIn" type="submit" value="Submit">
+					</form>
+					<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+					Upload Image<input type="file" name="fs+.png" />
+					<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+					<input class="animated bounceIn" type="submit" value="Upload">
+					</form>
+					<script>
+						$.ajax({
+							url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/FS+.json',
+							dataType: 'json',
+						jsonpCallback: 'MyJSONPCallback', 
+						success: function(data){
+						$('#fsresourceName').attr("name" , "resourceName");
+						$('#fsresourceName').attr("value" , data["resourceName"]);
+						$('#fsimage').attr("name" , "image");
+						$('#fsimage').attr("value" , data["image"]);
+						$('#fsimagePath').attr("name" , "imagePath");
+						$('#fsimagePath').attr("value" , data["imagePath"]);
+						$('#fsprice').attr("name" , "price");
+						$('#fsprice').attr("value" , data["price"]);
+											}
+								});
+					</script>
+				</div> <!-- ENDS FORM CONTAINER -->
+			</div>
+			<div class="col-1-2">
+				<h1>Edit FS Properties!</h1>
+				<div id="form-container" font color="black"><!-- BEGINS FORM CONTAINER -->
+					<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/FS.html" enctype="multipart/form-data">
+					resourceName:<input class="name-box" type="text" id="fresourceName" /><br />
+					image:<input class="email-box" id="fimage" /><br />
+					price:<input class="email-box"  id="fprice"/></textarea><br />
+					imagePath:<input class="email-box"  id="fimagePath"/></textarea><br />
+					<input class="animated bounceIn" type="submit" value="Submit">
+					</form>
+					<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+					Upload Image<input type="file" name="fs.png" />
+					<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+					<input class="animated bounceIn" type="submit" value="Upload">
+					</form>
+				
+					<script>
+						$.ajax({
+							url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/FS.json',
+							dataType: 'json',
+							jsonpCallback: 'MyJSONPCallback', 
+							success: function(data){
+							$('#fresourceName').attr("name" , "resourceName");
+							$('#fresourceName').attr("value" , data["resourceName"]);
+							$('#fimage').attr("name" , "image");
+							$('#fimage').attr("value" , data["image"]);
+							$('#fimagePath').attr("name" , "imagePath");
+							$('#fimagePath').attr("value" , data["imagePath"]);
+							$('#fprice').attr("name" , "price");
+							$('#fprice').attr("value" , data["price"]);	
+													}
+								});
+						</script>
+					</div> <!-- ENDS FORM CONTAINER -->
+				</div>
+				<div class="col-1-2">
+					<h1>Edit MS properties !</h1>
+					<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+						<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/MS.html" enctype="multipart/form-data">
+						resourceName:<input class="name-box" type="text" id="mresourceName" /><br />
+						image:<input class="email-box" id="mimage" /><br />
+						price:<input class="email-box"  id="mprice"/></textarea><br />
+						imagePath:<input class="email-box"  id="mimagePath"/></textarea><br />
+						<input class="animated bounceIn" type="submit" value="Submit">
+						</form>
+						<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+						Upload Image<input type="file" name="ms.png" />
+						<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+						<input class="animated bounceIn" type="submit" value="Upload">
+						</form>
+						
+						<script>
+							$.ajax({
+							url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/MS.json',
+							dataType: 'json',
+							jsonpCallback: 'MyJSONPCallback', 
+							success: function(data){
+							$('#mresourceName').attr("name" , "resourceName");
+							$('#mresourceName').attr("value" , data["resourceName"]);
+							$('#mimage').attr("name" , "image");
+							$('#mimage').attr("value" , data["image"]);
+							$('#mimagePath').attr("name" , "imagePath");
+							$('#mimagePath').attr("value" , data["imagePath"]);
+							$('#mprice').attr("name" , "price");
+							$('#mprice').attr("value" , data["price"]);			
+													}
+									});
+						</script>
+					</div> <!-- ENDS FORM CONTAINER -->
+				</div>
+			</div>
+		</div>
+
+		<div class="section s4">
+			<div class="inner">
+				<div class="col-1-2">
+					<h1>Edit Hb+ Properties!</h1>
+						<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+							<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Hb+.html" enctype="multipart/form-data">
+							resourceName:<input class="name-box" type="text" id="hbresourceName" /><br />
+							image:<input class="email-box" id="hbimage" /><br />
+							price:<input class="email-box"  id="hbprice"/></textarea><br />
+							imagePath:<input class="email-box"  id="hbimagePath"/></textarea><br />
+							<input class="animated bounceIn" type="submit" value="Submit">
+							</form>
+							<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+							Upload Image<input type="file" name="hb+.png" />
+							<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+							<input class="animated bounceIn" type="submit" value="Upload">
+							</form>
+					 
+							<script>
+								$.ajax({
+								url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Hb+.json',
+								dataType: 'json',
+								jsonpCallback: 'MyJSONPCallback', 
+								success: function(data){
+       
+								$('#hbresourceName').attr("name" , "resourceName");
+								$('#hbresourceName').attr("value" , data["resourceName"]);
+								$('#hbimage').attr("name" , "image");
+								$('#hbimage').attr("value" , data["image"]);
+								$('#hbimagePath').attr("name" , "imagePath");
+								$('#hbimagePath').attr("value" , data["imagePath"]);
+								$('#hbprice').attr("name" , "price");
+								$('#hbprice').attr("value" , data["price"]);
+													}
+										});
+							</script>
+						</div> <!-- ENDS FORM CONTAINER -->
+					</div>
+					<div class="col-1-2">
+						<h1>Edit Bio6 properties !</h1>
+							<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+								<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Bio6.html" enctype="multipart/form-data">
+								resourceName:<input class="name-box" type="text" id="b6resourceName" /><br />
+								image:<input class="email-box" id="b6image" /><br />
+								price:<input class="email-box"  id="b6price"/></textarea><br />
+								imagePath:<input class="email-box"  id="b6imagePath"/></textarea><br />
+								<input class="animated bounceIn" type="submit" value="Submit">
+								</form>
+								<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/images" enctype="multipart/form-data">
+								Upload Image<input type="file" name="bio6 .png" />
+								<input type="hidden" name="*@TypeHint" value="nt:file" /><br>
+								<input class="animated bounceIn" type="submit" value="Upload">
+								</form>
+								
+								<script>
+									$.ajax({
+										url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Bio6.json',
+										dataType: 'json',
+										jsonpCallback: 'MyJSONPCallback', 
+										success: function(data){
+       
+										$('#b6resourceName').attr("name" , "resourceName");
+										$('#b6resourceName').attr("value" , data["resourceName"]);
+										$('#b6image').attr("name" , "image");
+										$('#b6image').attr("value" , data["image"]);
+										$('#b6imagePath').attr("name" , "imagePath");
+										$('#b6imagePath').attr("value" , data["imagePath"]);
+										$('#b6price').attr("name" , "price");
+										$('#b6price').attr("value" , data["price"]);
+															}
+											});
+								</script>
+							</div> <!-- ENDS FORM CONTAINER -->
+						</div>
+						<div class="col-1-2">
+							<h1>Edit Bio5 Properties!</h1>
+								<div id="form-container" font color="black"><!-- BEGINS FORM CONTAINER -->
+									<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Bio5.html" enctype="multipart/form-data">
+									resourceName:<input class="name-box" type="text" id="b5resourceName" /><br />
+									image:<input class="email-box" id="b5image" /><br />
+									price:<input class="email-box"  id="b5price"/></textarea><br />
+									imagePath:<input class="email-box"  id="b5imagePath"/></textarea><br />
+									<input class="animated bounceIn" type="submit" value="Submit">
+									</form>
+								<script>
+									$.ajax({
+									url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Bio5.json',
+									dataType: 'json',
+									jsonpCallback: 'MyJSONPCallback', 
+									success: function(data){
+									$('#b5resourceName').attr("name" , "resourceName");
+									$('#b5resourceName').attr("value" , data["resourceName"]);
+									$('#b5image').attr("name" , "image");
+									$('#b5image').attr("value" , data["image"]);
+									$('#b5imagePath').attr("name" , "imagePath");
+									$('#b5imagePath').attr("value" , data["imagePath"]);
+									$('#b5price').attr("name" , "price");
+									$('#b5price').attr("value" , data["price"]);
+														}
+										});
+								</script>
+							</div> <!-- ENDS FORM CONTAINER -->
+						</div>
+						<div class="col-1-2">
+							<h1>Edit Bio4 Properties !</h1>
+							<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+								<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Bio4.html" enctype="multipart/form-data">
+								resourceName:<input class="name-box" type="text" id="b4resourceName" /><br />
+								image:<input class="email-box" id="b4image" /><br />
+								price:<input class="email-box"  id="b4price"/></textarea><br />
+								imagePath:<input class="email-box"  id="b4imagePath"/></textarea><br />
+								<input class="animated bounceIn" type="submit" value="Submit">
+								</form>
+								<script>
+									$.ajax({
+										url: 'http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Bio4.json',
+										dataType: 'json',
+										jsonpCallback: 'MyJSONPCallback', 
+										success: function(data){
+       
+										$('#b4resourceName').attr("name" , "resourceName");
+										$('#b4resourceName').attr("value" , data["resourceName"]);
+										$('#b4image').attr("name" , "image");
+										$('#b4image').attr("value" , data["image"]);
+										$('#b4imagePath').attr("name" , "imagePath");
+										$('#b4imagePath').attr("value" , data["imagePath"]);
+										$('#b4price').attr("name" , "price");
+										$('#b4price').attr("value" , data["price"]);
+																}
+											});
+								</script>
+						</div> <!-- ENDS FORM CONTAINER -->
+					</div>
+				</div>
+
+<div class="section s5">
+	<div class="inner">
+		<div class="col-1-2">
+							<h1>Edit Payment Details !</h1>
+							<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+								<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/Panel_Information/Paymentdetails.html" enctype="multipart/form-data">
+								resourceName:<input class="name-box" type="text" id="pdresourceName" /><br />
+								body:<input class="email-box" id="body" /><br />
+								info:<input class="email-box"  id="info"/></textarea><br />
+								bankInfo:<input class="email-box"  id="bankInfo"/></textarea><br />
+								<input class="animated bounceIn" type="submit" value="Submit">
+								</form>
+								<script>
+									$.ajax({
+										url: 'http://192.210.137.153:8080/NeoGenAppMobile/Paymentdetails.json',
+										dataType: 'json',
+										jsonpCallback: 'MyJSONPCallback', 
+										success: function(data){
+       
+										$('#pdresourceName').attr("name" , "resourceName");
+										$('#pdresourceName').attr("value" , data["resourceName"]);
+										$('#body').attr("name" , "body");
+										$('#body').attr("value" , data["body"]);
+										$('#info').attr("name" , "info");
+										$('#info').attr("value" , data["info"]);
+										$('#bankInfo').attr("name" , "bankInfo");
+										$('#bankInfo').attr("value" , data["bankInfo"]);
+																}
+											});
+								</script>
+						</div> <!-- ENDS FORM CONTAINER --></div>
+						<div class="col-1-2">
+							<h1>Edit Questions !</h1>
+							<div id="form-container"><!-- BEGINS FORM CONTAINER -->
+								<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile/For_Parents/First_Step/Questions.html" enctype="multipart/form-data">
+								resourceName:<input class="name-box" type="text" id="qresourceName" /><br />
+								question:<input class="email-box" id="question" /><br />
+								answer:<input class="email-box"  id="answer"/></textarea><br />
+								<input class="animated bounceIn" type="submit" value="Submit">
+								</form>
+								<script>
+									$.ajax({
+										url: 'http://192.210.137.153:8080/NeoGenAppMobile/For_Parents/First_Step/Questions.json',
+										dataType: 'json',
+										jsonpCallback: 'MyJSONPCallback', 
+										success: function(data){
+       
+										$('#qresourceName').attr("name" , "resourceName");
+										$('#qresourceName').attr("value" , data["resourceName"]);
+										$('#question').attr("name" , "question");
+										$('#question').attr("value" , data["question"]);
+										
+										$('#answer').attr("name" , "answer");
+										$('#answer').attr("value" , data["answer"]);
+																}
+											});
+								</script>
+						</div> <!-- ENDS FORM CONTAINER --></div>
+						<div class="col-1-1">
+						<h1>Edit Entire Structure!</h1>
+						<form method="POST" action="http://192.210.137.153:8080/NeoGenAppMobile" enctype="multipart/form-data">
+						<input type="hidden" name=":operation" value="import" />
+						<input type="hidden" name=":contentType" value="json" />
+						<input type="file" name=":contentFile" />
+						<input type="Submit" />
+						</form>
+			</div><br class="clear">
+		</div>
+
+	</div>
+
+	
+
+</div>
+
+</body>
+</html>

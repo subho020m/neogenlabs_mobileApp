@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Built-By: SUBHAJIT
+Tool: Bnd-0.0.357
+Bundle-Name: com.neogenlabs.mailserver.configuration
+Created-By: Apache Maven Bundle Plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: NeoGen Labs
+Bundle-Developer: SUBHAJIT MUKHERJEE
+Build-Jdk: 1.7.0_60
+Bundle-Version: 1.0.2.SNAPSHOT
+Bnd-LastModified: 1404427007960
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.neogenlabs.mailserver.configuration.Activator
+Bundle-Description: This bundle is responsible for providing the imple
+ mentation of the configurable mail service interface
+Import-Package: com.neogenlabs.mail,javax.mail;version="1.4",org.apach
+ e.commons.mail;version="1.3",org.apache.felix.dm;version="3.0",org.os
+ gi.framework;version="1.4",org.osgi.service.cm;version="1.2",org.slf4
+ j;version="1.6"
+Bundle-SymbolicName: com.neogenlabs.mailserver.com.neogenlabs.mailserv
+ er.configuration;singleton:=true
+Bundle-DocURL: www.neogenlabs.com
+
